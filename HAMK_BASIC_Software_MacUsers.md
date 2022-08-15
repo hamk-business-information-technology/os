@@ -17,10 +17,10 @@ xcode-select --install
 
 ## Step 2: Programs/Apps Installation
 ### The list of apss that you are going to install is as below: <br>
-> Vscode, vmware-horizon-client, disk-inventroy, git, github, obs, vmware-fusion & zoom.
+> Vscode, vmware-horizon-client, disk-inventroy, git, github, obs, vmware-fusion, google drive, google chrome, docker & zoom.
 ### To install the above mentioned programs run the following script
 ```
-brew install --cask visual-studio-code && brew install --cask vmware-horizon-client && brew install --cask disk-inventory-x && brew install --cask zoom && brew install git && brew install --cask github && brew install --cask obs && brew install --cask vmware-fusion
+brew install --cask visual-studio-code && brew install --cask vmware-horizon-client && brew install --cask disk-inventory-x && brew install --cask zoom && brew install git && brew install --cask github && brew install --cask obs && brew install --cask vmware-fusion && brew install --cask google-drive && brew install --cask docker && brew install --cask google-chrome
 ```
 ## Further Actions
  ***Upon successfull installation of the above mentioned programs, you will come accross the following two windows:*** 
