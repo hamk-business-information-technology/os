@@ -10,7 +10,7 @@ The following guidelines utilizes the **chocolatey package manager** for **Windo
 * .NET Framework 4+ 
 
 ### Installation Process (with PowerShell)
-* Start Powershell with Adminitrator rights (Run as Administrator)
+* Start Powershell with Administrator rights (Run as Administrator)
 > If you already have choco installed in your device, run the following command in your powershell 
 ```
 rm C:\ProgramData\chocolatey -erroraction 'silentlycontinue'
@@ -41,7 +41,7 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 ```
 ## Further Actions
- ***Upon successfull installation of the above mentioned programs, you will come accross the following two windows:*** 
+ ***Upon successfull installation of the above mentioned programs, you will come across the following two windows:*** 
 
 ### Create GitHub Account
 If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. Please use your personal email id to create a GitHub account. 
