@@ -1,3 +1,4 @@
+{% include topnav.html %}
 # Installation of basic programs (HAMK BYOD) in students' personal devices (Mac Users)
 The following guidelines utilizes the **[brew](https://brew.sh/) package manager** for **macOS** to install several applications that are used in different modules in HAMK. 
 ## Step 1: Install brew
