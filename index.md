@@ -29,9 +29,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolat
 
 ```
 choco install powershell-core  git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client github-desktop obs-studio docker-desktop google-drive-file-stream googlechrome -y
-
 ```
-
 ## Step 3: Installing some useful VScode addons 
 
 * Restart your Powershell session 
