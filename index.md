@@ -25,12 +25,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolat
 ### The list of apss that you are going to install is as below: <br>
 > powershell-core, git, vscode, putty,firefox, greenshot,google-drive-file-stream, googlechrome notepadplusplus, winscp, 7zip,  paint.net, windirstat, zoom, sudo, vmrc, vmware-horizon-client, github-desktop, docker-desktop & obs-studio
 ### To install the above mentioned programs run the following script
+
 ```
 choco install powershell-core  git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client github-desktop obs-studio docker-desktop google-drive-file-stream googlechrome -y
 
 ```
 
 ## Step 3: Installing some useful VScode addons 
+
 * Restart your Powershell session 
 * Run the following commands 
 ```
