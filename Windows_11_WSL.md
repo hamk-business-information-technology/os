@@ -1,5 +1,5 @@
 {% include topnav.html %}
-# How to install WSL2 to your computer to your Windows 11 computer
+# How to install WSL2 to your computer  (Windows 11) ?
 
 ### Installation Process (with PowerShell)
 * Start Powershell with Administrator rights (Run as Administrator)
