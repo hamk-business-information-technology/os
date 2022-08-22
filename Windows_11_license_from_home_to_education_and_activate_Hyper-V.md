@@ -12,13 +12,13 @@ wmic path SoftwareLicensingService get OA3xOriginalProductKey
 Log in to https://azureforeducation.microsoft.com/devtools
 Find Windows 11
 
-![Windows 11 key](/assets/MS_portal_windows11.png "View Key on Windows 11 Educational version")
+![Windows 11 key](assets/MS_portal_windows11.png "View Key on Windows 11 Educational version")
 
 * View Key ja save it to your computer
 * Click start menu and type Windows activation
 
 
-![activation](/assets/windows11_activation.png "View Key on Windows 11 Educational version")
+![activation](assets/windows11_activation.png "View Key on Windows 11 Educational version")
 
 * Choose Change product key and input your License key for Windows 11
 Windows license update will end in strange error THAT IS A NORMAL MICROSOFT WAY TO SAY “JOB WELL DONE”. 
@@ -37,7 +37,7 @@ https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 
-![hyper-v_on](/assets/hyper-v_on.png "View Key on Windows 11 Educational version")
+![hyper-v_on](assets/hyper-v_on.png "View Key on Windows 11 Educational version")
 
 
 * Restart your computer finalize the changes to your operating system

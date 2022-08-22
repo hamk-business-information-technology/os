@@ -9,7 +9,7 @@
 ```
 wsl --install
 ```
-![Installing WSL](/assets/wslupdate.png "WSL --install")
+![Installing WSL](assets/wslupdate.png "WSL --install")
 
 
 ### Set default WSL version and check installed distributions
@@ -17,7 +17,7 @@ wsl --install
 wsl --set-default-version 2
 wsl --list --verbose
 ```
-![Installing WSL](/assets/WSL_status.png "WSL status")
+![Installing WSL](assets/WSL_status.png "WSL status")
 
 
 
@@ -26,7 +26,7 @@ wsl --list --verbose
 ```
 wsl --install --distribution Debian
 ```
-![Installing Debian to WSL](/assets/WSL_Debian.png "WSL Debian")
+![Installing Debian to WSL](assets/WSL_Debian.png "WSL Debian")
 
 
 * Uninstalling command is --unregister
@@ -48,7 +48,7 @@ wsl --import Ubuntu-backup "c:\temp\" "G:\My Drive\Ubuntu_wsl_backup.tar"
 
 ```
 
-![Installing Debian to WSL](/assets/WSL_export_inport.png "WSL Debian")
+![Installing Debian to WSL](assets/WSL_export_inport.png "WSL Debian")
 
 
 
