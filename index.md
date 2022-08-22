@@ -19,6 +19,7 @@ rm C:\ProgramData\chocolatey -erroraction 'silentlycontinue'
 * Run the following command in Powershell to install CHOCOLATEY
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
+
 ```
 
 ## Step 2: Programs/Apps Installation
@@ -35,6 +36,7 @@ choco install powershell-core  git vscode putty greenshot notepadplusplus winscp
 
 * Restart your Powershell session 
 * Run the following commands 
+
 ```
 code --install-extension ms-vscode.powershell
 code --install-extension vsls-contrib.gistfs
