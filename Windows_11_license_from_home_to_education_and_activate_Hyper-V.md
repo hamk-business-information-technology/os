@@ -10,7 +10,7 @@ wmic path SoftwareLicensingService get OA3xOriginalProductKey
 * Save it in a safe place 😊
 
 #### 2) Getting a new Windows 11 Education license
-Log in to [Azure For Education](https://azureforeducation.microsoft.com/devtools)
+Log in to [Azure For Education](https://azureforeducation.microsoft.com/devtools) <br>
 Find Windows 11
 
 ![Windows 11 key](assets/MS_portal_windows11.png "View Key on Windows 11 Educational version")
@@ -26,8 +26,8 @@ Windows license update will end in strange error THAT IS A NORMAL MICROSOFT WAY 
 Restart your computer and Windows will activate new license in 1-3 minutes. 
 
 #### 3) TMP / Enabling Virtualization in BIOS/UEFI
-[How to enable virtualization](https://www.isumsoft.com/computer/enable-virtualization-technology-vt-x-in-bios-or-uefi.html)
-[How to access BIOS settings for different manufacturer? ](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968)
+- [How to enable virtualization? ](https://www.isumsoft.com/computer/enable-virtualization-technology-vt-x-in-bios-or-uefi.html)
+- [How to access BIOS settings for different manufacturer? ](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968)
 
 
 #### 4) Activate Hyper-V
