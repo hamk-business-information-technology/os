@@ -17,9 +17,9 @@ The following guidelines utilizes the **chocolatey package manager** for **Windo
 rm C:\ProgramData\chocolatey -erroraction 'silentlycontinue'
 ```
 * Run the following command in Powershell to install CHOCOLATEY
+
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
-
 ```
 
 ## Step 2: Programs/Apps Installation
@@ -29,6 +29,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolat
 
 ```
 choco install powershell-core  git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client github-desktop obs-studio docker-desktop google-drive-file-stream googlechrome -y
+
 ```
 ## Step 3: Installing some useful VScode addons 
 
@@ -42,6 +43,7 @@ code --install-extension hashicorp.terraform
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+
 ```
 ## Further Actions
  ***Upon successfull installation of the above mentioned programs, you will come across the following two windows:*** 
