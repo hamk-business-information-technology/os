@@ -16,7 +16,7 @@ Find Windows 11
 ![Windows 11 key](assets/MS_portal_windows11.png "View Key on Windows 11 Educational version")
 
 * View Key and save it to your computer
-* Click start menu and type Windows activation
+** Click start menu and type Windows activation
 
 
 ![activation](assets/windows11_activation.png "View Key on Windows 11 Educational version")
