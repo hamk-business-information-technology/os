@@ -26,7 +26,7 @@ Windows license update will end in strange error THAT IS A NORMAL MICROSOFT WAY 
 Restart your computer and Windows will activate new license in 1-3 minutes. 
 
 #### 3) TMP / Enabling Virtualization in BIOS/UEFI
-- [How to enable virtualization? ](https://www.isumsoft.com/computer/enable-virtualization-technology-vt-x-in-bios-or-uefi.html)
+- [How to enable virtualization? ](https://www.isumsoft.com/computer/enable-virtualization-technology-vt-x-in-bios-or-uefi.html) <br>
 - [How to access BIOS settings for different manufacturer? ](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968)
 
 
