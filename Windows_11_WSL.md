@@ -26,12 +26,16 @@ wsl --list --verbose
 
 ```
 wsl --install --distribution Debian
+
+wsl --install --distribution Ubuntu
 ```
 ![Installing Debian to WSL](assets/WSL_Debian.png "WSL Debian")
 
 
 * Uninstalling command is --unregister
 ```
+wsl --unregister Ubuntu
+
 wsl --unregister Debian
 ```
 
@@ -54,5 +58,4 @@ wsl --import Ubuntu-backup "c:\temp\" "G:\My Drive\Ubuntu_wsl_backup.tar"
 
 
 More command can be found https://docs.microsoft.com/en-us/windows/wsl/basic-commands
-
 
