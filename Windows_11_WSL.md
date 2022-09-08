@@ -43,12 +43,6 @@ wsl --install --distribution Debian
 wsl -d Ubuntu -u root bash -c 'apt update ; apt upgrade -y'
 wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
 ```
-![automating updates or starting an update from the host system](https://pbs.twimg.com/media/Fbr33RfXoAMYRQf?format=png&name=small "Hayden Barnes
-@unixterminal") 
-
-
-Image by Hayden Barnes / @unixterminal
-
 
 ### Uninstalling command is --unregister
 ```
