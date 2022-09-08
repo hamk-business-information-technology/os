@@ -24,12 +24,17 @@ wsl --list --verbose
 
 ###  See a list of the Linux distributions available through the online store.
 
-```
-wsl --install --distribution Debian
 
-wsl --install --distribution Ubuntu
-```
 ![Installing Debian to WSL](assets/WSL_Debian.png "WSL Debian")
+
+
+###  Lets install Ubuntu 20.04 and Debian Distripution. We will use Ubuntu as main platform and Debian for testing.
+```
+wsl --install --distribution Ubuntu-20.04
+
+wsl --install --distribution Debian
+```
+
 
 
 * Uninstalling command is --unregister
