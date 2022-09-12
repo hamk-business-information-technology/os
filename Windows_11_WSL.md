@@ -68,6 +68,26 @@ wsl --import Ubuntu-backup "c:\temp\" "G:\My Drive\Ubuntu_wsl_backup.tar"
 ![Installing Debian to WSL](assets/WSL_export_inport.png "WSL Debian")
 
 
+### Problem Solving / Windows updates
+
+Update Windows computer and WSL. Start Powershell with Administrator rights
+
+```
+# Install Windows update module
+Install-Module PSWindowsUpdate -Confirm
+Get-WindowsUpdate
+Install-WindowsUpdate
+# Reboot as needed 
+```
+
+Update WSL kernel
+```
+# WSL kernel updates
+wsl --update
+
+```
+
+
 
 More command can be found https://docs.microsoft.com/en-us/windows/wsl/basic-commands
 
