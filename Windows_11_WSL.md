@@ -49,6 +49,8 @@ wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
 wsl --unregister Ubuntu-20.04
 
 wsl --unregister Debian
+
+wsl --setdefault Ubuntu-20.04
 ```
 
 ### Export and import a Ubuntu distribution to a TAR file
