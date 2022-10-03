@@ -33,6 +33,8 @@ wsl --list --verbose
 wsl --install --distribution Ubuntu-20.04
 
 wsl --install --distribution Debian
+
+wsl --setdefault Ubuntu-20.04
 ```
 
 ###  Updating WSL distripution using Powershell
@@ -50,7 +52,6 @@ wsl --unregister Ubuntu-20.04
 
 wsl --unregister Debian
 
-wsl --setdefault Ubuntu-20.04
 ```
 
 ### Export and import a Ubuntu distribution to a TAR file
