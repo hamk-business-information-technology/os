@@ -105,9 +105,5 @@ wsl --set-default-version 2
 ```
 ![WSL1to2](assets/WSL_WSL1to2.png "WSL1to2")
 
-```
-
-
-
 More command can be found https://docs.microsoft.com/en-us/windows/wsl/basic-commands
 
