@@ -99,10 +99,14 @@ wsl --list --verbose
 wsl --set-version Ubuntu 2
 wsl --set-version Ubuntu-20.04 2
 
-![WSL1to2](https://user-images.githubusercontent.com/29271631/199265350-b757d808-06cb-47df-bc93-b3e1c3f84a8d.png)
-
 # Fix the default 
 wsl --set-default-version 2
+
+```
+![WSL1to2](assets/WSL_WSL1to2.png "WSL1to2")
+
+```
+
 
 
 ```
