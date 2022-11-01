@@ -90,6 +90,23 @@ wsl --update
 
 ```
 
+Convert WSL 1 to WSL 2
+```
+# List all installed Ubuntu WSL intance
+wsl --list --verbose
+
+# Find what WSL install is running in 1 and convert it to 2
+wsl --set-version Ubuntu 2
+wsl --set-version Ubuntu-20.04 2
+
+![WSL1to2](https://user-images.githubusercontent.com/29271631/199265350-b757d808-06cb-47df-bc93-b3e1c3f84a8d.png)
+
+# Fix the default 
+wsl --set-default-version 2
+
+
+```
+
 
 
 More command can be found https://docs.microsoft.com/en-us/windows/wsl/basic-commands
