@@ -109,9 +109,5 @@ wsl --set-default-version 2
 
 
 
-```
-
-
-
 More command can be found https://docs.microsoft.com/en-us/windows/wsl/basic-commands
 
