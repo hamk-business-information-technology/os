@@ -1,0 +1,18 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Windows Users
+      url: /index
+    - title: MAC Users
+      url: /HAMK_BASIC_Software_MacUsers
+    - title: Windows License
+      url: /Windows_11_license_from_home_to_education_and_activate_Hyper-V
+    - title: WSL
+      url: /Windows_11_WSL
+    
+   
+
+  
+
