@@ -28,7 +28,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolat
 ### To install the above mentioned programs run the following script
 
 ```
-choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client github-desktop obs-studio docker-desktop google-drive-file-stream googlechrome -y
+choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client github-desktop obs-studio docker-desktop google-drive-file-stream googlechrome curl -y
 
 ```
 ## Step 3: Installing some useful VScode addons 
