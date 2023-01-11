@@ -42,9 +42,28 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 
 *Restart your computer finalize the changes to your operating system*
-
-
-
-
-
 ***Congratulations, you have updated your Windows 11 licence and activated Hyper-v***
+
+### FAQ / Problem solving
+
+#### Hyper-V still not working?
+
+Forcing Hyper-v to start using Windows bootloader. 
+
+* Start Powershell with Adminitrator rights (Run as Administrator)
+
+```
+bcdedit /set hypervisorlaunchtype off
+```
+ 
+#### Need to shut down Hyper-v for compative gaming? 
+
+Let's generate new Windows boot option for NO Hyper-v running. *You need to modify the command to match the bootloader tag*
+
+![hyper-v_off](assets/Windowsbootloader.png "Hyper-V off using bcdedit ")
+
+```
+  bcdedit /copy {current} /d "Windows 11 no Hyper-V"
+  bcdedit /set {Add your identifier here} hypervisorlaunchtype Off
+```
+
