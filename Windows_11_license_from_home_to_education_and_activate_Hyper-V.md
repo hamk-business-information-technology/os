@@ -53,7 +53,7 @@ Forcing Hyper-v to start using Windows bootloader.
 * Start Powershell with Adminitrator rights (Run as Administrator)
 
 ```
-bcdedit /set hypervisorlaunchtype off
+bcdedit /set hypervisorlaunchtype auto
 ```
  
 #### Need to shut down Hyper-v for compative gaming? 
