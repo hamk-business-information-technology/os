@@ -3,16 +3,14 @@
 topnav:
 - title: Topnav
   items:
-    - title: Windows Users
+    - title: Windows Basic programs 
       url: /index
+    - title: Updating Windows License to Education and activate Hyper-V 
+      url: /Windows_11_license_from_home_to_education_and_activate_Hyper-V
+    - title: WSL & Docker 
+      url: /Windows_11_WSL
     - title: MAC Users
       url: /HAMK_BASIC_Software_MacUsers
-    - title: Windows License
-      url: /Windows_11_license_from_home_to_education_and_activate_Hyper-V
-    - title: WSL
-      url: /Windows_11_WSL
-    
-   
 
   
 
