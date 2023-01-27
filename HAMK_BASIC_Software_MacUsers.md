@@ -57,3 +57,9 @@ You need to configure Git by providing your full name and email address. Use the
 
 ## All done! Here is some recommended apps for faster multitasking.
 * https://rectangleapp.com/
+
+### Get hidden files visable (Like .ssh folde)
+
+* Go to Parrent folder
+* press Cmd + Shift + . to reveal the hidden folder and files. 
+* When you no longer want to see them click Command + Shift + . again.
