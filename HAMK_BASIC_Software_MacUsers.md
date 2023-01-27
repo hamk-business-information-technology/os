@@ -56,10 +56,14 @@ You need to configure Git by providing your full name and email address. Use the
 ***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
 
 ## All done! Here is some recommended apps for faster multitasking.
+
+### Mac Windows manager / Windows snaping tool
 * https://rectangleapp.com/
 
 ### Get hidden files visable (Like .ssh folde)
-
 * Go to Parrent folder
 * press Cmd + Shift + . to reveal the hidden folder and files. 
 * When you no longer want to see them click Command + Shift + . again.
+
+### Spice up your MacOS Terminal
+https://www.engineeringwithutsav.com/blog/spice-up-your-macos-terminal
