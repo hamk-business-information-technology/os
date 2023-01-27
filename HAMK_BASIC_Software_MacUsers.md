@@ -11,10 +11,7 @@ The following guidelines utilizes the **[brew](https://brew.sh/) package manager
 * Command Line Tools (CLT) for Xcode (from xcode-select --install or https://developer.apple.com/download/all/) or Xcode 3
 * Terminal emulator
 
-#### Open a Terminal
-```
-Click the Spotlight (magnifying glass) icon in the menu bar or press Command-Space bar
-```
+#### Open a Terminal by clicking the Spotlight (magnifying glass) icon in the menu bar or press Command-Space bar
 
 #### Install needed development environment components
 ```
@@ -25,6 +22,15 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
+#### Under "==> Next steps:" Read and copy tree lines of code to terminal and execute it. Here is a examples
+```
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/$USER/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+
+
 ## Step 2: Programs/Apps Installation
 ### The list of apss that you are going to install is as below: <br>
 > Vscode, vmware-horizon-client, disk-inventroy, git, github, obs, vmware-fusion, google drive, google chrome, docker & zoom.
@@ -32,8 +38,10 @@ xcode-select --install
 ```
 brew install --cask visual-studio-code; brew install --cask vmware-horizon-client; brew install --cask disk-inventory-x; brew install --cask zoom; brew install git; brew install --cask github; brew install --cask obs; brew install --cask vmware-fusion-tech-preview; brew install --cask google-drive; brew install --cask docker; brew install --cask google-chrome; brew install docker
 ```
+
 ## Further Actions
  ***Upon successfull installation of the above mentioned programs, you will come accross the following two windows:*** 
+
 
 ### Create GitHub Account
 If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. Please use your personal email id to create a GitHub account. 
