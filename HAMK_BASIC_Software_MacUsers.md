@@ -1,17 +1,26 @@
 
 # Installation of basic programs (HAMK BYOD) in students' personal devices (Mac Users)
 The following guidelines utilizes the **[brew](https://brew.sh/) package manager** for **macOS** to install several applications that are used in different modules in HAMK. 
-## Step 1: Install brew
+
+
+## Step 1: Installing Apple development environment Xcode and Brew
+
 ### Requirements
 * A 64-bit Intel CPU or Apple Silicon CPU 1
 * macOS Catalina (10.15) (or higher) 2
 * Command Line Tools (CLT) for Xcode (from xcode-select --install or https://developer.apple.com/download/all/) or Xcode 3
+* Terminal emulator
 
-#### Install Xcode 
+#### Open a Terminal
+```
+Click the Spotlight (magnifying glass) icon in the menu bar or press Command-Space bar
+```
+
+#### Install needed development environment components
 ```
 xcode-select --install
 ```
-#### Install Brew
+#### Install Brew package manager
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
@@ -37,3 +46,6 @@ You need to configure Git by providing your full name and email address. Use the
 ![Configure Git](assets/configureGit.png "Please use your Full Name and email ")
 
 ***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
+
+## All done! Here is some recommended apps for faster multitasking.
+* https://rectangleapp.com/
