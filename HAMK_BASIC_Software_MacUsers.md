@@ -60,7 +60,11 @@ You need to configure Git by providing your full name and email address. Use the
 ### Mac Windows manager / Windows snaping tool
 * https://rectangleapp.com/
 
-### Get hidden files visable (Like .ssh folde)
+
+### Warp terminal 
+* [Warp terminal](https://www.warp.dev/) and [New *incredible* mac OS terminal! (warp + starship + zsh)](https://www.youtube.com/watch?v=NfggT5enF4o)
+
+### Get hidden files visable (Like .ssh folder)
 * Go to Parrent folder
 * press Cmd + Shift + . to reveal the hidden folder and files. 
 * When you no longer want to see them click Command + Shift + . again.
