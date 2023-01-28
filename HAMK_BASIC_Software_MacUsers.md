@@ -1,6 +1,6 @@
 
 # Installation of basic programs (HAMK BYOD) in students' personal devices (Mac Users)
-The following guidelines utilizes the **[brew](https://brew.sh/) package manager** for **macOS** to install several applications that are used in different modules in HAMK. 
+The following guidelines utilize the **[brew](https://brew.sh/) package manager** for **macOS** to install several applications that are used in different modules in HAMK. 
 
 
 ## Step 1: Installing Apple development environment Xcode and Brew
@@ -22,7 +22,7 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-#### Under "==> Next steps:" Read and copy tree lines of code to terminal and execute it. Here is a examples
+#### Under "==> Next steps:" Read and copy tree lines of code to terminal and execute it. Here are a examples
 ```
 echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/$USER/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
@@ -40,7 +40,7 @@ brew install --cask visual-studio-code; brew install --cask vmware-horizon-clien
 ```
 
 ## Further Actions
- ***Upon successfull installation of the above mentioned programs, you will come accross the following two windows:*** 
+ ***Upon successfull installation of the above mentioned programs, you will come across the following two windows:*** 
 
 
 ### Create GitHub Account
@@ -49,13 +49,13 @@ If you already have a **GitHub account**, you can sign in and if you don't have 
 ![GitHub account creation](assets/githubaccount.png "Please click Create your free account or Sign in to GitHUb.com depending on your situation")
 
 ### Configure Git
-You need to configure Git by providing your full name and email address. Use the same email address that you used to sign up to GitHub.
+You need to configure Git by providing your full name and email address. Use the same email address that you used to sign up for GitHub.
 
 ![Configure Git](assets/configureGit.png "Please use your Full Name and email ")
 
 ***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
 
-## All done! Here is some recommended apps for faster multitasking.
+## All done! Here are some recommended apps for faster multitasking.
 
 ### Mac Windows manager / Windows snaping tool
 * https://rectangleapp.com/
@@ -64,8 +64,8 @@ You need to configure Git by providing your full name and email address. Use the
 ### Warp terminal 
 * [Warp terminal](https://www.warp.dev/) and [New *incredible* mac OS terminal! (warp + starship + zsh)](https://www.youtube.com/watch?v=NfggT5enF4o)
 
-### Get hidden files visable (Like .ssh folder)
-* Go to Parrent folder
+### Get hidden files visible (Like .ssh folder)
+* Go to Parent folder
 * press Cmd + Shift + . to reveal the hidden folder and files. 
 * When you no longer want to see them click Command + Shift + . again.
 
