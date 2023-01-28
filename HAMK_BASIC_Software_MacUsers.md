@@ -46,7 +46,7 @@ brew install --cask visual-studio-code; brew install --cask vmware-horizon-clien
 ### Create GitHub Account
 If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. Please use your personal email id to create a GitHub account. 
 
-![Githhub account creation](assets/githubaccount.png "Please click Create your free account or Sign in to GitHUb.com depending on your situation")
+![GitHub account creation](assets/githubaccount.png "Please click Create your free account or Sign in to GitHUb.com depending on your situation")
 
 ### Configure Git
 You need to configure Git by providing your full name and email address. Use the same email address that you used to sign up to GitHub.
