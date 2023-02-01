@@ -49,9 +49,7 @@ wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
 ### Uninstalling command is --unregister
 ```
 wsl --unregister Ubuntu-20.04
-
 wsl --unregister Debian
-
 ```
 
 ### Export and import a Ubuntu distribution to a TAR file
@@ -72,8 +70,7 @@ wsl --import Ubuntu-backup "c:\temp\" "G:\My Drive\Ubuntu_wsl_backup.tar"
 
 
 # Problem Solving
-
-Update Windows computer and WSL. Start Powershell with Administrator rights as many times is needed
+Update Windows computer and WSL. Start Powershell with Administrator rights as many times is needed. Go through repairs in order and test regularly.
 
 ```
 # Install Windows update modules
@@ -97,6 +94,20 @@ Update WSL kernel
 ```
 # WSL kernel updates
 wsl --update
+```
+
+Reinstall Ubuntu, Debian and Docker images. THIS WILL RESULT IN LOST DATA if you have not save data on your host machine!
+```
+Stop-Process -Name "Docker Desktop" -Force
+wsl --unregister Ubuntu-20.04
+wsl --unregister Ubuntu
+wsl --unregister Debian
+wsl --unregister docker-desktop-data
+wsl --unregister docker-desktop
+wsl --install --distribution Ubuntu-20.04
+wsl --install --distribution Debian
+wsl --setdefault Ubuntu-20.04
+wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
 ```
 
 Convert WSL 1 to WSL 2
