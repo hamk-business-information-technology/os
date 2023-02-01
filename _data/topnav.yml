@@ -3,16 +3,14 @@
 topnav:
 - title: Topnav
   items:
-    - title: Windows Users
+    - title: 1 Windows Basic programs 
       url: /index
-    - title: MAC Users
-      url: /HAMK_BASIC_Software_MacUsers
-    - title: Windows License
+    - title: 2 Windows License & Hyper-V 
       url: /Windows_11_license_from_home_to_education_and_activate_Hyper-V
-    - title: WSL
+    - title: 3 WSL & Docker 
       url: /Windows_11_WSL
-    
-   
+    - title: 4 MAC Users
+      url: /HAMK_BASIC_Software_MacUsers
 
   
 
