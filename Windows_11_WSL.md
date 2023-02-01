@@ -83,10 +83,12 @@ Import-Module PSWindowsUpdate
 Get-WindowsUpdate
 Install-WindowsUpdate
 # Reboot as needed 
-
-# Check Hyper-V is on? If not jump to "Hyper-V still not working?"
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+```
 
+### [Hyper-V still not working? Jump to "Hyper-V still not working?"](#hyper-v-still-not-working) otherwise, move on with WSL install
+
+```
 # Let's check that WSL is installed
 wsl --install
 ```
