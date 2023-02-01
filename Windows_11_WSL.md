@@ -73,21 +73,28 @@ wsl --import Ubuntu-backup "c:\temp\" "G:\My Drive\Ubuntu_wsl_backup.tar"
 
 ### Problem Solving / Windows updates
 
-Update Windows computer and WSL. Start Powershell with Administrator rights
+Update Windows computer and WSL. Start Powershell with Administrator rights as many times is needed
 
 ```
-# Install Windows update module
+# Install Windows update modules
 Install-Module PSWindowsUpdate -Confirm
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy unrestricted
+Import-Module PSWindowsUpdate
 Get-WindowsUpdate
 Install-WindowsUpdate
 # Reboot as needed 
+
+# Check Hyper-V is on? If not jump to "Hyper-V still not working?"
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+
+# Let's check that WSL is installed
+wsl --install
 ```
 
 Update WSL kernel
 ```
 # WSL kernel updates
 wsl --update
-
 ```
 
 Convert WSL 1 to WSL 2
@@ -104,6 +111,17 @@ wsl --set-default-version 2
 
 ```
 ![WSL1to2](assets/WSL_WSL1to2.png "WSL1to2")
+
+
+#### Hyper-V still not working?
+
+Forcing Hyper-v to start using Windows bootloader. 
+
+* Start Powershell with Adminitrator rights (Run as Administrator)
+
+```
+bcdedit /set hypervisorlaunchtype auto
+```
 
 More command can be found https://docs.microsoft.com/en-us/windows/wsl/basic-commands
 
