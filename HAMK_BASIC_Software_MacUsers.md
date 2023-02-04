@@ -1,4 +1,3 @@
-
 # Installation of basic programs (HAMK BYOD) in students' personal devices (Mac Users)
 The following guidelines utilize the **[brew](https://brew.sh/) package manager** for **macOS** to install several applications that are used in different modules in HAMK. 
 
@@ -29,9 +28,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
-
-
-## Step 2: Programs/Apps Installation
+## Step 2: Programs/Apps Installation using Brew
 ### The list of apss that you are going to install is as below: <br>
 > Vscode, vmware-horizon-client, disk-inventroy, git, github, obs, vmware-fusion, google drive, google chrome, docker & zoom.
 ### To install the above mentioned programs run the following script
@@ -39,10 +36,16 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install --cask visual-studio-code; brew install --cask vmware-horizon-client; brew install --cask disk-inventory-x; brew install --cask zoom; brew install git; brew install --cask github; brew install --cask obs; brew install --cask utm; brew install --cask google-drive; brew install --cask docker; brew install --cask google-chrome; brew install --cask microsoft-teams; brew install docker
 ```
 
-## Further Actions
- ***Upon successfull installation of the above mentioned programs, you will come across the following two windows:*** 
+## Step 3: Apple store
+We are still missing few basic software for IT studies and basic use. We still need to install *Vmware Horizon client, Microsoft Office and Vmware console* Alternative software to Vmware Horizon client (VDI) is *Citrix Secure Access* a HAMK VPN service. You **can not** run this software at the same time.  
+
+![Apple store software](assets/mac-apps-from-apple-store.png "Install software ")
 
 
+
+
+
+# Git and Github
 ### Create GitHub Account
 If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. Please use your personal email id to create a GitHub account. 
 
