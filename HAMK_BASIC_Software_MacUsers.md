@@ -41,8 +41,16 @@ We are still missing few basic software for IT studies and basic use. We still n
 
 ![Apple store software](assets/mac-apps-from-apple-store.png "Install software ")
 
+# Apple UI changes
 
+We recommend a few changes to the mac operating system that will help you with file management and coding. This are Show items on desktop, File Extensions and Path bar.
 
+### Enable show items on desktop and show file extension
+![Show items on Desktop](assets/mac-show-items-on-desktop.png "Show items on Desktop")
+![Mac Show File Extension](assets/mac-show-file-extensions.png "Mac Show File Extension")
+
+### Show file path
+![Show File path](assets/mac-show-file-path.png "Show File path")
 
 
 # Git and Github
