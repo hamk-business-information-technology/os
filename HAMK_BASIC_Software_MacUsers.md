@@ -55,13 +55,16 @@ We recommend a few changes to the mac operating system that will help you with f
 
 # Git and Github
 ### Create GitHub Account
-If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. Please use your personal email id to create a GitHub account. 
+If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. 
 
-![GitHub account creation](assets/githubaccount.png "Please click Create your free account or Sign in to GitHUb.com depending on your situation")
+1) Please use your personal email id to create a GitHub account. 
+2) Go to [https://github.com/settings/emails](https://github.com/settings/emails) and add your student HAMK email
+3) Activate [https://education.github.com/pack](https://education.github.com/pack). HAMK email needs to be added before activation. Depending of the situation you will maybe need to be verified. Use your mobile student card to verify yourself.
 
 ### Configure Git
 You need to configure Git by providing your full name and email address. Use the same email address that you used to sign up for GitHub.
 
+![GitHub account creation](assets/githubaccount.png "Please click Create your free account or Sign in to GitHUb.com depending on your situation")
 ![Configure Git](assets/configureGit.png "Please use your Full Name and email ")
 
 ***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
@@ -71,8 +74,6 @@ You need to configure Git by providing your full name and email address. Use the
 ### Mac Windows manager / Windows snaping tool
 * [https://www.warp.dev/](https://rectangleapp.com/)
 
-
-
 ### Per-device scrolling prefs on macOS.
 * [https://github.com/pilotmoon/Scroll-Reverser](https://github.com/pilotmoon/Scroll-Reverser)
 
@@ -80,10 +81,6 @@ You need to configure Git by providing your full name and email address. Use the
 ### Warp terminal 
 * [Warp terminal](https://www.warp.dev/) and [New *incredible* mac OS terminal! (warp + starship + zsh)](https://www.youtube.com/watch?v=NfggT5enF4o)
 
-### Get hidden files visible (Like .ssh folder)
-* Go to Parent folder
-* press Cmd + Shift + . to reveal the hidden folder and files. 
-* When you no longer want to see them click Command + Shift + . again.
 
 ### Spice up your MacOS Terminal
 https://www.engineeringwithutsav.com/blog/spice-up-your-macos-terminal
