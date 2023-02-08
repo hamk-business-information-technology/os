@@ -52,6 +52,12 @@ We recommend a few changes to the mac operating system that will help you with f
 ### Show file path
 ![Show File path](assets/mac-show-file-path.png "Show File path")
 
+### Get hidden files visible (Like .ssh folder)
+Go to Parent folder
+press Cmd + Shift + . to reveal the hidden folder and files.
+When you no longer want to see them click Command + Shift + . again.
+
+
 
 # Git and Github
 ### Create GitHub Account
@@ -81,6 +87,3 @@ You need to configure Git by providing your full name and email address. Use the
 ### Warp terminal 
 * [Warp terminal](https://www.warp.dev/) and [New *incredible* mac OS terminal! (warp + starship + zsh)](https://www.youtube.com/watch?v=NfggT5enF4o)
 
-
-### Spice up your MacOS Terminal
-https://www.engineeringwithutsav.com/blog/spice-up-your-macos-terminal
