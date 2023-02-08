@@ -69,6 +69,23 @@ wsl --import Ubuntu-backup "c:\temp\" "G:\My Drive\Ubuntu_wsl_backup.tar"
 ![Installing Debian to WSL](assets/WSL_export_inport.png "WSL Debian")
 
 
+
+### Limiting amount of memory and cpu WSL can use. Change values as needed
+Start Powershell with **NORMAL** user rights and copy all command in to it. 
+
+```
+$contentToAdd = @"
+[wsl2]
+memory=4GB # Limits VM memory in WSL 2 to 4 GB
+processors=2 # Makes the WSL 2 VM use two virtual processors
+"@
+
+New-Item $home\.wslconfig
+Add-Content $home\.wslconfig $contentToAdd
+notepad++ $home\.wslconfig 
+```
+
+
 # Problem Solving
 Update Windows computer and WSL. Start Powershell with Administrator rights as many times is needed. Go through repairs in order and test regularly.
 
