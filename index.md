@@ -45,17 +45,18 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 
 ```
-## Further Actions
- ***Upon successfull installation of the above mentioned programs, you will come across the following two windows:*** 
-
+# Git and Github
 ### Create GitHub Account
-If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. Please use your personal email id to create a GitHub account. 
+If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. 
 
-![Githhub account creation](assets/githubaccount.png "Please click Create your free account or Sign in to GitHUb.com depending on your situation")
+1) Please use your personal email id to create a GitHub account. 
+2) Go to [https://github.com/settings/emails](https://github.com/settings/emails) and add your student HAMK email
+3) Activate [https://education.github.com/pack](https://education.github.com/pack). HAMK email needs to be added before activation. Depending of the situation you will maybe need to be verified. Use your mobile student card to verify yourself.
 
 ### Configure Git
-You need to configure Git by providing your full name and email address. Use the same email address that you used to sign up to GitHub.
+You need to configure Git by providing your full name and email address. Use the same email address that you used to sign up for GitHub.
 
+![GitHub account creation](assets/githubaccount.png "Please click Create your free account or Sign in to GitHUb.com depending on your situation")
 ![Configure Git](assets/configureGit.png "Please use your Full Name and email ")
 
 ***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
