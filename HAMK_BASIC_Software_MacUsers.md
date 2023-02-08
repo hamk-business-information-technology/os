@@ -52,6 +52,11 @@ We recommend a few changes to the mac operating system that will help you with f
 ### Show file path
 ![Show File path](assets/mac-show-file-path.png "Show File path")
 
+### Get hidden files visible (Like .ssh folder)
+Go to Parent folder
+press Cmd + Shift + . to reveal the hidden folder and files.
+When you no longer want to see them click Command + Shift + . again.
+
 
 # Git and Github
 ### Create GitHub Account
