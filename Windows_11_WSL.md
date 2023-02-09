@@ -121,10 +121,12 @@ wsl --unregister Ubuntu
 wsl --unregister Debian
 wsl --unregister docker-desktop-data
 wsl --unregister docker-desktop
+wsl --set-default-version 2
 wsl --install --distribution Ubuntu-20.04
 wsl --install --distribution Debian
-wsl --setdefault Ubuntu-20.04
+Start-Sleep -Seconds 5 #Waiting WSL to activate
 wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
+wsl --setdefault Ubuntu-20.04
 ```
 
 Convert WSL 1 to WSL 2
