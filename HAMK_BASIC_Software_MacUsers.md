@@ -63,9 +63,9 @@ When you no longer want to see them click Command + Shift + . again.
 ### Create GitHub Account
 If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account. 
 
-1) Please use your personal email id to create a GitHub account. 
-2) Go to [https://github.com/settings/emails](https://github.com/settings/emails) and add your student HAMK email
-3) Activate [https://education.github.com/pack](https://education.github.com/pack). HAMK email needs to be added before activation. Depending of the situation you will maybe need to be verified. Use your mobile student card to verify yourself.
+  1.  Please use your personal email id to create a GitHub account. 
+  2.  Go to [https://github.com/settings/emails](https://github.com/settings/emails) and add your student HAMK email
+  3.  Activate [https://education.github.com/pack](https://education.github.com/pack). HAMK email needs to be added before activation. Depending of the situation you will maybe need to be verified. Use your mobile student card to verify yourself.
 
 ### Configure Git
 You need to configure Git by providing your full name and email address. Use the same email address that you used to sign up for GitHub.
