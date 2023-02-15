@@ -124,7 +124,7 @@ wsl --unregister docker-desktop
 wsl --set-default-version 2
 wsl --install --distribution Ubuntu-20.04
 wsl --install --distribution Debian
-Start-Sleep -Seconds 5 #Waiting WSL to activate
+Start-Sleep -Seconds 10 #Waiting WSL to activate
 wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
 wsl --setdefault Ubuntu-20.04
 ```
