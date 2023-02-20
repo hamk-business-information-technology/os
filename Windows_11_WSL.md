@@ -46,30 +46,16 @@ wsl -d Ubuntu -u root bash -c 'apt update ; apt upgrade -y'
 wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
 ```
 
-### Uninstalling command is --unregister
-```
-wsl --unregister Ubuntu-20.04
-wsl --unregister Debian
-```
 
-### Export and import a Ubuntu distribution to a TAR file
-
+### Enabling systemd to your default WSL distribution Ubuntu-20.04
+We are starting to use systemd, which brings WSL Linux closer to a virtual machine or physical installation
 
 ```
-wsl --export Ubuntu "G:\My Drive\Ubuntu_wsl_backup.tar"
+wsl -u root -d Ubuntu-20.04 bash -c "touch /etc/wsl.conf"
+wsl -u root -d Ubuntu-20.04 bash -c "echo [boot] >> /etc/wsl.conf" 
+wsl -u root -d Ubuntu-20.04 bash -c "echo systemd=true >> /etc/wsl.conf" 
+wsl -t Ubuntu-20.04
 ```
-
-* Import a new distribution
-
-```
-wsl --import Ubuntu-backup "c:\temp\" "G:\My Drive\Ubuntu_wsl_backup.tar"
-
-```
-
-![Installing Debian to WSL](assets/WSL_export_inport.png "WSL Debian")
-
-
-
 ### Limiting amount of memory and cpu WSL can use. Change values as needed
 Start Powershell with **NORMAL** user rights and copy all command in to it. 
 
@@ -85,14 +71,30 @@ Add-Content $home\.wslconfig $contentToAdd
 notepad++ $home\.wslconfig 
 ```
 
-### Enabling systemd to your default WSL distribution Ubuntu-20.04
-We are starting to use systemd, which brings WSL Linux closer to a virtual machine or physical installation
+# How to backup WSL and remove it from the machine to save space
+
+### Export and import a Ubuntu distribution to a TAR file
 
 ```
-wsl -u root -d Ubuntu-20.04 bash -c "touch /etc/wsl.conf"
-wsl -u root -d Ubuntu-20.04 bash -c "echo [boot] >> /etc/wsl.conf" 
-wsl -u root -d Ubuntu-20.04 bash -c "echo systemd=true >> /etc/wsl.conf" 
+wsl --export Ubuntu "G:\My Drive\Ubuntu_wsl_backup.tar"
+```
 
+Import a new distribution
+
+```
+wsl --import Ubuntu-backup "c:\temp\" "G:\My Drive\Ubuntu_wsl_backup.tar"
+
+```
+
+![Installing Debian to WSL](assets/WSL_export_inport.png "WSL Debian")
+
+
+### Uninstalling command is --unregister
+No need to remove WSL distribution if everything is working
+
+```
+wsl --unregister Ubuntu-20.04
+wsl --unregister Debian
 ```
 
 # Problem Solving
@@ -165,4 +167,3 @@ bcdedit /set hypervisorlaunchtype auto
 ```
 
 More command can be found https://docs.microsoft.com/en-us/windows/wsl/basic-commands
-
