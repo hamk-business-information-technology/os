@@ -85,6 +85,15 @@ Add-Content $home\.wslconfig $contentToAdd
 notepad++ $home\.wslconfig 
 ```
 
+### Enabling systemd to your default WSL distribution Ubuntu-20.04
+We are starting to use systemd, which brings WSL Linux closer to a virtual machine or physical installation
+
+```
+wsl -u root -d Ubuntu-20.04 bash -c "touch /etc/wsl.conf"
+wsl -u root -d Ubuntu-20.04 bash -c "echo [boot] >> /etc/wsl.conf" 
+wsl -u root -d Ubuntu-20.04 bash -c "echo systemd=true >> /etc/wsl.conf" 
+
+```
 
 # Problem Solving
 Update Windows computer and WSL. Start Powershell with Administrator rights as many times is needed. Go through repairs in order and test regularly.
