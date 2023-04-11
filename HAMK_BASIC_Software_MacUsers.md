@@ -78,7 +78,7 @@ You need to configure Git by providing your full name and email address. Use the
 ## All done! Here are some recommended apps for faster multitasking.
 
 ### Mac Windows manager / Windows snaping tool
-* [https://www.warp.dev/](https://rectangleapp.com/)
+* [https://rectangleapp.com/](https://rectangleapp.com/)
 
 ### Per-device scrolling prefs on macOS.
 * [https://github.com/pilotmoon/Scroll-Reverser](https://github.com/pilotmoon/Scroll-Reverser)
