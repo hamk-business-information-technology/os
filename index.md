@@ -43,7 +43,8 @@ code --install-extension hashicorp.terraform
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-
+code --install-extension GitHub.copilot-nightly
+code --install-extension GitHub.copilot-labs
 ```
 # Git and Github
 ### Create GitHub Account
