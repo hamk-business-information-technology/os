@@ -57,7 +57,7 @@ Please follow these steps to activate a new product key in Windows:
 
 To enable Hyper-V on your Windows machine, follow these steps:
 
-1. **Open Control Panel:** Press `Win + X` and choose "Control Panel" from the menu.
+1. **Open Control Panel:** Search "Control Panel" in the search box and click "Control Panel" to open it.
 
 2. **Programs and Features:** Click on "Programs" and then select "Turn Windows features on or off."
 
@@ -69,10 +69,7 @@ To enable Hyper-V on your Windows machine, follow these steps:
 
 6. **Restart:** After the installation is complete, you'll be prompted to restart your computer. Save your work and click "Restart."
 
-7. **Verify Hyper-V Installation:** Once your computer restarts, you can start using Hyper-V. Look for "Hyper-V Manager" in your Start Menu to manage virtual machines.
-
 > Remember, enabling Hyper-V requires administrative privileges and may impact other virtualization software you might be using. If you encounter issues or need to run software that conflicts with Hyper-V, you can always disable it by following similar steps and unchecking the "Hyper-V" box.
-
 
 ***Activating Hyper-V Using PowerShell***
 
