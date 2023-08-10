@@ -76,7 +76,7 @@ If you already have a **GitHub account**, you can sign in and if you don't have 
 
   > Congratulations! Once your email is verified, your account is ready. You can now start using GitHub to create repositories, contribute to projects and collaborate with others.
   
-  ### Link your HAMK email
+### Link your HAMK email
 
   Linking your school email to your GitHub account can offer several benefits, especially if you plan to use GitHub for both personal and academic purposes. When you link your your school email with your GitHub account: 
   - It helps to verify your identity which is important when collaborating on academic projects during the module. 
@@ -124,7 +124,7 @@ git config --global user.name "Your Name"
 git config --global user.email your.email@example.com
 ```
 ***Check your Git Configuration***
- 
+
 ```
 git config --list
 ```
