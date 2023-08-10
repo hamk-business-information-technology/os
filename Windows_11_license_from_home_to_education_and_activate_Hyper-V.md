@@ -1,7 +1,8 @@
 
 # How to update Windows 11 license from home to education and activate Hyper-V?
 
- ## Step 1: Backup Windows license
+## Step 1: Backup Windows license
+
 * Start Powershell or Command Prompt with administrator privileges.
 * Run the following command to save the Windows License key as a text file named license.txt
 ```
