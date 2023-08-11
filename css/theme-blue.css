@@ -18,10 +18,9 @@ h4 {color: #003755; }
     background-color: #347DBE;
 }
 
-.nav > li:first-child a.active {
-    background-color: #248ec2;
-    color: white;
-}
+.link-list li a:active {
+    background-color: red;
+  }
 
 .nav > li > a:hover {
     background-color: #248ec2;
