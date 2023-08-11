@@ -2,6 +2,7 @@ body {
     font-size:15px;
 }
 
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
@@ -1200,4 +1201,9 @@ h4.panel-title {
     .collapse.in{
         display:block !important;
     }
+}
+
+
+.footer-text {
+    padding: 0px 15px 25px;
 }
