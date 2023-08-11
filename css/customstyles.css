@@ -1,7 +1,7 @@
 body {
     font-size:15px;
-}
 
+}
 
 .bs-callout {
     padding: 20px;
@@ -251,7 +251,7 @@ div#toc ul {
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
-    color: gray;
+    color: black;
 }
 
 div#toc ul li ul {
@@ -427,7 +427,21 @@ span.projectTitle {
 }
 
 .footer {
+    display: inline;
     text-align: right;
+}
+
+
+.footer-logo img {
+    float: left;
+    display: inline;
+    width: 200px;
+    height: auto;
+    padding: 0px 15px 25px;
+}
+
+.footer-text {
+    padding: 0px 15px 25px;
 }
 
 .footerMeta {
@@ -1201,9 +1215,4 @@ h4.panel-title {
     .collapse.in{
         display:block !important;
     }
-}
-
-
-.footer-text {
-    padding: 0px 15px 25px;
 }
