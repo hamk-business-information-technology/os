@@ -438,11 +438,11 @@ span.projectTitle {
     display: inline;
     width: 200px;
     height: auto;
-    padding: 0px 15px 25px;
+    padding: 0px 15px 10px;
 }
 
 .footer-text {
-    padding: 0px 15px 25px;
+    padding: 0px 15px 10px;
 }
 
 .footerMeta {
