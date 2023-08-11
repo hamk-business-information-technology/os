@@ -9,12 +9,12 @@ h2 {color: #585C23; }
 h3 {color: #7300F0; }
 h4 {color: #003755; }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+.nav-tabs > li.active > a,  .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #248ec2;
     color: white;
 }
 
-.nav > li.active > a {
+.nav > li.active > a, .nav-tabs li:first-child a.active, {
     background-color: #347DBE;
 }
 
