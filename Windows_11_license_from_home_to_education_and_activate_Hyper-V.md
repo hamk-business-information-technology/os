@@ -15,6 +15,8 @@ wmic path SoftwareLicensingService get OA3xOriginalProductKey
 ```
 * Save it in a safe place 😊
 
+`NOTE: Microsoft is slowly moving to a digital licenses that are tied to your laptop’s hardware or Microsoft account. In this situation you WILL NOT get a license key because activation will be done without it.` [Read more from here](https://support.microsoft.com/en-us/windows/activate-windows-c39005d4-95ee-b91e-b399-2820fda32227)
+
 ## Step 2: Getting a new Windows 11 Education license
 
 1. Log in to [Azure For Education](https://azureforeducation.microsoft.com/devtools).
