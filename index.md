@@ -61,7 +61,6 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension GitHub.copilot-nightly
 code --install-extension GitHub.copilot-labs
-code --install-extension GitHub.classroom
 ```
 ## Step 4: Create GitHub Account
 

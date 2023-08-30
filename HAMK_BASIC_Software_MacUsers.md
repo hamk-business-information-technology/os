@@ -62,7 +62,6 @@ code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension GitHub.copilot-nightly
 code --install-extension GitHub.copilot-labs
-code --install-extension GitHub.classroom
 ```
 
 ## Apple UI changes
@@ -150,17 +149,17 @@ git config --list
 ```
 ***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
 
-## All completed!
+** All completed! **
 
-### Here are some recommended apps for faster multitasking.
+## Here are some recommended apps for faster multitasking.
 
-#### Mac Windows manager / Windows snaping tool
+** Mac Windows manager / Windows snaping tool **
 * [https://rectangleapp.com/](https://rectangleapp.com/)
 
-#### Per-device scrolling preferences on macOS.
+** Per-device scrolling preferences on macOS.**
 * [https://github.com/pilotmoon/Scroll-Reverser](https://github.com/pilotmoon/Scroll-Reverser)
 
-#### Warp terminal 
+** Warp terminal **
 * [Warp terminal](https://www.warp.dev/) and [New *incredible* macOS terminal! (warp + starship + zsh)](https://www.youtube.com/watch?v=NfggT5enF4o)
 
 
