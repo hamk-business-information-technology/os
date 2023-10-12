@@ -30,9 +30,9 @@ wsl --list --verbose
 
 ##  Lets install Ubuntu 20.04 and Debian Distripution. We will use Ubuntu as main platform and Debian for testing.
 ```
-wsl --install --distribution Ubuntu-20.04
+wsl --install --web-download --distribution Ubuntu-20.04
 
-wsl --install --distribution Debian
+wsl --install --web-download --distribution Debian
 
 wsl --setdefault Ubuntu-20.04
 ```
@@ -132,8 +132,8 @@ wsl --unregister Debian
 wsl --unregister docker-desktop-data
 wsl --unregister docker-desktop
 wsl --set-default-version 2
-wsl --install --distribution Ubuntu-20.04
-wsl --install --distribution Debian
+wsl --install --web-download --distribution Ubuntu-20.04
+wsl --install --web-download --distribution Debian
 Start-Sleep -Seconds 10 #Waiting WSL to activate
 wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
 wsl --setdefault Ubuntu-20.04
