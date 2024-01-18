@@ -151,6 +151,28 @@ git config --list
 
 ** All completed! **
 
+
+## Step 9: Virtual machines platforms
+
+
+You have two good options for virtual machines platforms: Vmware Fusion and Parallels. Vmware Fusion is free for personal use and Parallels is paid. You can choose the one that suits you best. 
+> [!NOTE] 
+> For now Apple computers are not supporting nested virtualization so Docker and Kubernetes need to be installed to the host machine.
+
+
+***Parallels***
+
+We recommend owners of Mac computers to use Parallels software, which enables Windows programs to run. Parallels and other software used in teaching are heavy, so we also recommend that Apple computers have at least 16 GB of memory and an M2 series processor. The recommendation applies to level 2-3 in the computer recommendation for educational programs. You can download the Parallels software from [https://www.parallels.com/landingpage/pd/education/](https://www.parallels.com/landingpage/pd/education/). You can get the student discount by HAMK email. The order process goes as follows “Buy now -> Can't find your institution? -> enter my.email@student.hamk.fi
+
+***Vmware Fusion***
+
+Vmware Fusion is free for personal use, but needs more configuration than Parallels. So we recommend Parallels for new Mac users. If you are familiar with virtual machines, you can use Vmware Fusion. For smooth working we recommend least 16 GB of memory and an M2 series processor. You can download the Vmware Fusion software from [https://www.vmware.com/go/get-fusionplayer-key](https://www.vmware.com/go/get-fusionplayer-key)
+
+***HAMK Vcommander***
+
+Third option is to use HAMK Vcommander service, but compared to Parallels and Vmware Fusion, it is not as good. You can find more information about Vcommander from [https://www.hamk.fi/it-service-catalog/virtual-it-lab-embotics-vcommander/?lang=en](https://www.hamk.fi/it-service-catalog/virtual-it-lab-embotics-vcommander/?lang=en)
+
+
 ## Here are some recommended apps for faster multitasking.
 
 ** Mac Windows manager / Windows snaping tool **
