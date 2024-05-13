@@ -55,12 +55,11 @@ choco install powershell-core git vscode putty greenshot notepadplusplus winscp 
 ```
 code --install-extension ms-vscode.powershell
 code --install-extension vsls-contrib.gistfs
-code --install-extension hashicorp.terraform
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension GitHub.copilot-nightly
-code --install-extension GitHub.copilot-labs
+code --install-extension GitHub.copilot
+code --install-extension GitHub.copilot
 ```
 ## Step 4: Create GitHub Account
 

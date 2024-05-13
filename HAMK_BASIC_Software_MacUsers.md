@@ -56,12 +56,11 @@ Open a terminal and run the following command to install VScode Addons/Extension
 ```
 code --install-extension ms-vscode.powershell
 code --install-extension vsls-contrib.gistfs
-code --install-extension hashicorp.terraform
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension GitHub.copilot-nightly
-code --install-extension GitHub.copilot-labs
+code --install-extension GitHub.copilot
+code --install-extension GitHub.copilot
 ```
 
 ## Apple UI changes
@@ -183,5 +182,3 @@ Third option is to use HAMK Vcommander service, but compared to Parallels and Vm
 
 ** Warp terminal **
 * [Warp terminal](https://www.warp.dev/) and [New *incredible* macOS terminal! (warp + starship + zsh)](https://www.youtube.com/watch?v=NfggT5enF4o)
-
-
