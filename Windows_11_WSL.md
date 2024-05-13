@@ -5,7 +5,8 @@
 * Start Powershell with Administrator rights (Run as Administrator)
 
 * WSL will be installed to your computer and in the default setting it will download latest Ubuntu
-> If you already have wsl installed you should make sure that it is updated. Use command wsl --update to update it.
+> If you already have wsl installed you should make sure that it is updated. 
+Use command `wsl --update` to update it.
 
 ```bash
 wsl --install
@@ -29,7 +30,7 @@ wsl --list --verbose
 ![Installing Debian to WSL](assets/WSL_Debian.png "WSL Debian")
 
 
-##  Lets install Ubuntu 20.04 and Debian Distripution. We will use Ubuntu as main platform and Debian for testing.
+##  Lets install Ubuntu 24.04 and Debian Distripution. We will use Ubuntu as main platform and Debian for testing.
 
 ```bash
 wsl --install --web-download --distribution Ubuntu-24.04
