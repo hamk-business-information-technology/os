@@ -1,0 +1,120 @@
+site_name: HAMK BYOD
+repo_url: https://github.com/hamk-business-information-technology/os
+repo_name: hamk/bit/os
+theme:
+  name: material
+  logo: assets/favicon/logo_light_pink.png
+  favicon: assets/favicon/favicon.png
+  features:
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit # link to edit, The repo_url must also be given
+    - content.action.view # link to view, The repo_url must also be given
+    - navigation.tabs
+    - navigation.sections
+#    - navigation.expand # needed for larger webservers
+#    - navigation.path # needed for larger webservers
+    - navigation.top
+    - navigation.footer # next and back buttons in footer
+    - search # as part of feature, works when plugins off. If plugins on: search must be on in plugins to be enabled.
+    - search.sidebar
+    - search.suggest
+    - search.highlight
+#    - toc
+#    - toc.sidebar
+#    - toc.follow
+    - toc.integrate # this integrate the right side toc to the left side nav
+  language: en
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate # put slate first to make dark mode the default one
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+        primary: custom
+        accent: custom
+    # Palette toggle for light mode
+    - scheme: default #HAMK #
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+        primary: custom
+        accent: custom
+
+nav:
+  - 1 Windows Users: index.md
+  - 2 Windows License & Hyper-V: Windows_11_license_from_home_to_education_and_activate_Hyper-V.md
+  - 3 WSL & Docker: Windows_11_WSL.md
+  - 4 Mac Users: HAMK_BASIC_Software_MacUsers.md
+
+extra:
+  social:
+    - icon: simple/moodle
+      link: https://learn.hamk.fi/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/school/hamk/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:firstname.lastname@hamk.fi
+  status:
+    new: New feature
+    experimental: experimental
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - md_in_html
+  - pymdownx.details
+  - codehilite:
+#      linenums: true # globally adding line numbers to all code blocks
+                      # code blocks by indentation need this
+      guess_lang: false
+      css_class: highlight
+      pygments_style: friendly
+  - pymdownx.highlight:
+      anchor_linenums: true # I did not see a difference with or w/o this (Q)
+      line_spans: __span # I did not see a difference with or w/o this (Q)
+      use_pygments: true # I did not see a difference with or w/o this (Q)
+      pygments_lang_class: true # I did not see a difference with or w/o this (Q)
+      auto_title: true # I did not see a difference with or w/o this (Q)
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+      title: On this HAMK page
+      permalink_title: anchor link to this section for reference
+  # to use mkdocs-material library of icons (md)
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+  - https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/build.css
+  - https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css
+  - css/custom.css
+extra_javascript:
+  - js/custom.js
+  
+# plugins:
+#  - offline:
+#      enabled: !ENV [OFFLINE, false] # if true, the rendered url will differ with .html ending
+#  - info # this is to report bug to mkdocs-material only
+#  - search # must be on if plugins on
+
+#nav:
+#  - Home: index.md
+#  - Template: template/index.md
+#  - Documentation: documentation/index.md
+#  - BYOD: byod/index.md
+#  - BYOD: byod/
+
+copyright:
+  Copyright &copy; 2024 <a href="https://www.hamk.fi/en/" target="blank" >Häme University of Applied Sciences (HAMK)</a>
