@@ -1,5 +1,6 @@
 site_name: HAMK BYOD
 repo_url: https://github.com/hamk-business-information-technology/os
+edit_uri: edit/main/docs/ # to let content.action.edit / view redirect to `main`, not `master`
 repo_name: hamk-bit/os
 theme:
   name: material
@@ -9,8 +10,8 @@ theme:
     - content.tabs.link
     - content.code.copy
     - content.code.annotate
-#    - content.action.edit # link to edit, The repo_url must also be given
-#    - content.action.view # link to view, The repo_url must also be given
+    - content.action.edit # link to edit, the repo_url must also be given
+    - content.action.view # link to view, the repo_url must also be given
     - navigation.tabs
     - navigation.sections
 #    - navigation.expand # needed for larger webservers
