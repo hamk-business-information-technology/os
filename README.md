@@ -1,6 +1,8 @@
-# mkdocs-material-template
-- The work of this project is to apply mkdocs-material to write learning materials for the Business Information Technology (BIT) and Computer Applications (CA) at Häme University of Applied Sciences (HAMK).  
-- The work originated from the need for a template that supports search, code highlighting, code copying etc. to replace the old, unsupported template used for several years (earlier than May 2024).  
-- Some unmet needs still remain, such as the code highlighting for `bash` and some other languages. But the problem is at `pygments` and not `mkdocs-material`.
-- Coach: [Tero Keso](https://github.com/TeroKeso)
-- Contributor: [Luong Huy Quang](https://github.com/luonghuyquang)
+# HAMK Computer Applications and Tietojenkäsittely BYOD instructions
+
+This is detailed expansions to the HAMK general BYOD instructions for the Computer Applications and Tietojenkäsittely students. General IT and computer instructions can be found at [HAMK BYOD instructions](https://www.hamk.fi/en/student-pages/it-services-for-students/it-rules-and-guidelines/#Computer-requirements-and-using-your-own-computer-for-studying)
+
+
+Open instructions in here [https://hamk-business-information-technology.github.io/os/](https://hamk-business-information-technology.github.io/os/)
+
+
