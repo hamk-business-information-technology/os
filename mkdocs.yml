@@ -9,8 +9,8 @@ theme:
     - content.tabs.link
     - content.code.copy
     - content.code.annotate
-    - content.action.edit # link to edit, The repo_url must also be given
-    - content.action.view # link to view, The repo_url must also be given
+#    - content.action.edit # link to edit, The repo_url must also be given
+#    - content.action.view # link to view, The repo_url must also be given
     - navigation.tabs
     - navigation.sections
 #    - navigation.expand # needed for larger webservers
