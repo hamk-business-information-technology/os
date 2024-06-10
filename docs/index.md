@@ -86,9 +86,9 @@ If you already have a **GitHub account**, you can sign in and if you don't have 
   - It helps to verify your identity which is important when collaborating on academic projects during the module. 
   - You might have access to educational resources for students or discounts. 
   
-  ***Mandatory for all*** <br>
-  !!! Warning
-      Mandatory for all
+***Mandatory for all*** <br>
+!!! warning
+    Mandatory for all
 
   You are required to link your school email to your personal GitHub account. Please follow the instructions below: 
 
