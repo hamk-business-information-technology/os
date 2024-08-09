@@ -153,7 +153,7 @@ git config --list
 ```
 ***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
 
-** All completed! **
+**All completed!**
 
 
 ## Step 9: Virtual machines platforms
