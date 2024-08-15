@@ -1,6 +1,7 @@
 site_name: HAMK BYOD
 repo_url: https://github.com/hamk-business-information-technology/os
-repo_name: hamk/bit/os
+edit_uri: edit/main/docs/ # to let content.action.edit / view redirect to `main`, not `master`
+repo_name: hamk-bit/os
 theme:
   name: material
   logo: assets/favicon/logo_light_pink.png
@@ -9,8 +10,8 @@ theme:
     - content.tabs.link
     - content.code.copy
     - content.code.annotate
-    - content.action.edit # link to edit, The repo_url must also be given
-    - content.action.view # link to view, The repo_url must also be given
+    - content.action.edit # link to edit, the repo_url must also be given
+    - content.action.view # link to view, the repo_url must also be given
     - navigation.tabs
     - navigation.sections
 #    - navigation.expand # needed for larger webservers
@@ -56,6 +57,7 @@ extra:
       link: https://www.linkedin.com/school/hamk/
     - icon: fontawesome/solid/paper-plane
       link: mailto:firstname.lastname@hamk.fi
+      alt: email
   status:
     new: New feature
     experimental: experimental
@@ -108,13 +110,6 @@ extra_javascript:
 #      enabled: !ENV [OFFLINE, false] # if true, the rendered url will differ with .html ending
 #  - info # this is to report bug to mkdocs-material only
 #  - search # must be on if plugins on
-
-#nav:
-#  - Home: index.md
-#  - Template: template/index.md
-#  - Documentation: documentation/index.md
-#  - BYOD: byod/index.md
-#  - BYOD: byod/
 
 copyright:
   Copyright &copy; 2024 <a href="https://www.hamk.fi/en/" target="blank" >Häme University of Applied Sciences (HAMK)</a>

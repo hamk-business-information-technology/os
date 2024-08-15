@@ -86,9 +86,9 @@ If you already have a **GitHub account**, you can sign in and if you don't have 
   - It helps to verify your identity which is important when collaborating on academic projects during the module. 
   - You might have access to educational resources for students or discounts. 
   
-  ***Mandatory for all*** <br>
-  !!! Warning
-      Mandatory for all
+***Mandatory for all*** <br>
+!!! warning
+    Mandatory for all
 
   You are required to link your school email to your personal GitHub account. Please follow the instructions below: 
 
@@ -107,7 +107,7 @@ The GitHub Student Pack is a service meant to help students with their coding an
 **To activate the GitHub Student Developer Pack, follow these steps:**
 
 1. Access the Student Developer Pack:
- Once Signed in to GitHub and linking up your school's email account, access the   [Sign Up for Student Development Pack](https://education.github.com/benefits?type=student)page.
+ Once Signed in to GitHub and linking up your school's email account, access the   [Sign Up for Student Development Pack](https://education.github.com/benefits?type=student) page.
 2. Select your academic status as Student. 
 3. Fill in the form and Click Continue. 
 
