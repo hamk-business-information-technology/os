@@ -68,7 +68,7 @@ $contentToAdd = @"
 memory=4GB # Limits VM memory in WSL 2 to 4 GB
 processors=2 # Makes the WSL 2 VM use two virtual processors
 [experimental]
-autoMemoryReclaim=true
+autoMemoryReclaim=gradual
 "@
 
 New-Item $home\.wslconfig
