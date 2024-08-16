@@ -1,2 +1,12 @@
-/venv
-/site
+# Dependencies
+node_modules
+__pycache__
+venv
+.venv
+
+# Build files
+build
+site
+
+# macOS internals
+.DS_Store
