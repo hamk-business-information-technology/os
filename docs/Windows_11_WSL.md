@@ -32,9 +32,12 @@ wsl --list --verbose
 ![Installing Debian to WSL](assets/images/WSL_Debian.png "WSL Debian")
 
 
-##  Lets install Ubuntu 24.04 and Debian Distripution. We will use Ubuntu as main platform and Debian for testing.
+## Lets install Ubuntu 24.04 and Debian Distripution. We will use Ubuntu 24.04 as main platform and Debian for testing. For this reason we will start by removing default Ubuntu from your pc
 
 ```bash
+
+wsl --unregister Ubuntu
+
 wsl --install --web-download --distribution Ubuntu-24.04
 
 wsl --install --web-download --distribution Debian

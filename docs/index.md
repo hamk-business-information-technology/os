@@ -64,7 +64,8 @@ code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension GitHub.copilot
-code --install-extension GitHub.copilot-chat
+code --install-extension GitHub.vscode-pull-request-github
+
 ```
 ## Step 4: Create GitHub Account
 
