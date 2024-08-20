@@ -25,7 +25,8 @@ Chocolatey is a popular package manager for Windows that simplifies the process 
 
 !!! danger "This will remove chocolatey from your computer! For re-installing only!"
     ```powershell title="Powershell as Administrator"
-    rm C:\ProgramData\chocolatey -erroraction 'silentlycontinue'
+    rm -Path "C:\ProgramData\chocolatey" -Recurse -Force
+    rm -Path "C:\ProgramData\ChocolateyHttpCache" -Recurse -Force
     ```
 **Lets understand what you did with above command:** 
 
