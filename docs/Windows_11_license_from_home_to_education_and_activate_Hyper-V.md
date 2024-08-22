@@ -8,7 +8,7 @@ title: Windows 11 - Education Licence and Hyper-V
 * Start Powershell or Command Prompt with administrator privileges.
 * Run the following command to save the Windows License key as a text file named license.txt
 ```powershell
-Get-WmiObject -Class SoftwareLicensingService).OA3xOriginalProductKey | Out-File license.txt
+(Get-WmiObject -Class SoftwareLicensingService).OA3xOriginalProductKey | Out-File license.txt
 ```
 **Or you may also run the following command, the following command displays the the product key in the Command Prompt or PowerShell window** 
 
