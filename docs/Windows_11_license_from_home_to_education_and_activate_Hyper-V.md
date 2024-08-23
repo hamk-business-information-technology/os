@@ -56,6 +56,19 @@ Please follow these steps to activate a new product key in Windows:
 ???+ Note
     Sometimes, updating your Windows license might lead to unexpected errors. Don't be surprised – it's just Microsoft's unique way of saying **"Job well done!"** 
 
+***Windows license / Activation settings does not agree to change?***
+
+Some laptop manufacturers do not test their Windows 11 install image upgrade to Edu/Pro. Typical fix for there problems are following commands in Powershell as a Administrator
+
+```powershell
+SFC /SCANNOW 
+DISM /Online /Cleanup-Image /StartComponentCleanup 
+DISM /Online /Cleanup-Image /RestoreHealth
+```
+
+Now boot your computer and try changing license again
+
+
 ## TMP / Enabling Virtualization in BIOS/UEFI
 - [How to enable virtualization? ](https://www.isumsoft.com/computer/enable-virtualization-technology-vt-x-in-bios-or-uefi.html) <br>
 - [How to access BIOS settings for different manufacturer? ](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968)
@@ -95,7 +108,6 @@ To activate Hyper-V on your Windows machine using PowerShell, follow these steps
 
 ***Congratulations, you have updated your Windows 11 license and activated Hyper-v***
 
-# FAQ / Problem solving
 
 ## Hyper-V still not working?
 
