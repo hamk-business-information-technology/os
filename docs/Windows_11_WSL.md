@@ -35,21 +35,23 @@ wsl --list --verbose
 ## Lets install Ubuntu 24.04 and Debian Distripution. We will use Ubuntu 24.04 as main platform and Debian for testing. For this reason we will start by removing default Ubuntu from your pc
 
 ```bash
-
 wsl --unregister Ubuntu
-
+```
+```bash
 wsl --install --web-download --distribution Ubuntu-24.04
-
+```
+```bash
 wsl --install --web-download --distribution Debian
-
+```
+```bash
 wsl --setdefault Ubuntu-24.04
 ```
 
 #  Updating WSL distripution using Powershell
 
 ```bash
-wsl -d Ubuntu -u root bash -c 'apt update ; apt upgrade -y'
 wsl -d Ubuntu-24.04 -u root bash -c 'apt update ; apt upgrade -y'
+wsl -d Debian -u root bash -c 'apt update ; apt upgrade -y'
 ```
 
 
@@ -79,12 +81,14 @@ Add-Content $home\.wslconfig $contentToAdd
 notepad++ $home\.wslconfig 
 ```
 
+Last command did open Notepad++ and it is showing curant configuration $home\.wslconfig . If there is need to change default values now is good opportunity to change them base on your computer resources.
+
 # How to backup WSL and remove it from the machine to save space
 
 ## Export and import a Ubuntu distribution to a TAR file
 
 ```bash
-wsl --export Ubuntu "G:\My Drive\Ubuntu_wsl_backup_24.04.tar"
+wsl --export Ubuntu-24.04 "G:\My Drive\Ubuntu_wsl_backup_24.04.tar"
 ```
 
 Import a new distribution
