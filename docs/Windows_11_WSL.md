@@ -20,28 +20,31 @@ wsl --install
 
 ```bash
 wsl --set-default-version 2
-wsl --list --verbose
+wsl --list --verbose 
+wsl -l -v 
 ```
 ![Installing WSL](assets/images/WSL_status.png "WSL status")
 
 
 
 ##  See a list of the Linux distributions available through the online store.
-
+```bash
+wsl --list --online
+```
 
 ![Installing Debian to WSL](assets/images/WSL_Debian.png "WSL Debian")
 
 
-## Lets install Ubuntu 24.04 and Debian Distripution. We will use Ubuntu 24.04 as main platform and Debian for testing. For this reason we will start by removing default Ubuntu from your pc
+## Lets install Ubuntu 24.04 and Debian Distribution. We will use Ubuntu 24.04 as main platform and Debian for testing. For this reason we will start by removing default Ubuntu from your pc
 
 ```bash
 wsl --unregister Ubuntu
 ```
 ```bash
-wsl --install --web-download --distribution Ubuntu-24.04
+wsl --install -d Ubuntu-24.04 
 ```
 ```bash
-wsl --install --web-download --distribution Debian
+wsl --install -d Debian
 ```
 ```bash
 wsl --setdefault Ubuntu-24.04
@@ -64,6 +67,28 @@ wsl -u root -d Ubuntu-24.04 bash -c "echo [boot] >> /etc/wsl.conf"
 wsl -u root -d Ubuntu-24.04 bash -c "echo systemd=true >> /etc/wsl.conf" 
 wsl -t Ubuntu-24.04
 ```
+## Upgrading WSL 1 to WSL 2 (only if yours WSL version is 1)
+
+If you run `wsl -l -v` and it shows your **WSL version as 1**, follow the steps below:
+
+> **Note**: If you manually installed WSL before the `wsl --install` command was available, you need to manually install the Linux kernel package. You can find the detailed guide at the link below:
+> [Detailed Installation Guide](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+### Steps to Upgrade
+
+1. Install the Linux kernel package as per the detailed guide above.
+2. Open PowerShell as Administrator and run the following commands:
+
+    ```bash
+    wsl --set-version Ubuntu-24.04 2
+    wsl --set-version Debian 2
+    ```
+
+3. Re-check your WSL version with the command below to ensure it has been upgraded to version 2:
+
+    ```bash
+    wsl -l -v
+    ```
 ## Limiting amount of memory and cpu WSL can use. Change values as needed
 Start Powershell with **NORMAL** user rights and copy all command in to it. 
 
