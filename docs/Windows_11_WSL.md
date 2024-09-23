@@ -41,16 +41,24 @@ wsl --list --online
 wsl --unregister Ubuntu
 ```
 ```bash
+# Run the command below to install Ubuntu 24.04. Recommended.
+wsl --install --web-download --distribution Ubuntu-24.04 
+
+# Run the command below. If you get the error message when trying to install with the above command. 
 wsl --install -d Ubuntu-24.04 
 ```
 ```bash
+# Run the command below to install Debian. Recommended.
+wsl --install --web-download --distribution Debian
+
+# Run the command below. If you get the error message when trying to install with the above command. 
 wsl --install -d Debian
 ```
 ```bash
 wsl --setdefault Ubuntu-24.04
 ```
 
-#  Updating WSL distripution using Powershell
+#  Updating WSL distribution using Powershell
 
 ```bash
 wsl -d Ubuntu-24.04 -u root bash -c 'apt update ; apt upgrade -y'
