@@ -82,7 +82,7 @@ If you run `wsl -l -v` and it shows your **WSL version as 1**, follow the steps 
 > **Note**: If you manually installed WSL before the `wsl --install` command was available, you need to manually install the Linux kernel package. You can find the detailed guide at the link below:
 > [Detailed Installation Guide](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-### Steps to Upgrade
+## Steps to Upgrade
 
 1. Install the Linux kernel package as per the detailed guide above.
 2. Open PowerShell as Administrator and run the following commands:
@@ -114,7 +114,8 @@ Add-Content $home\.wslconfig $contentToAdd
 notepad++ $home\.wslconfig 
 ```
 
-Last command did open Notepad++ and it is showing curant configuration $home\.wslconfig . If there is need to change default values now is good opportunity to change them base on your computer resources.
+Last command did open Notepad++ and it is showing curant configuration $home\.wslconfig . If there is need to change default values now is good opportunity to change them base on your computer resources. Starting with WSL version 2.4.11, you can also make changes to the settings using the graphical tool `WSL Settings`. This tool is automatically installed when you install WSL.
+
 
 # How to backup WSL and remove it from the machine to save space
 

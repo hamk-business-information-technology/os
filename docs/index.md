@@ -10,6 +10,15 @@ The provided instructions use the **Chocolatey package manager** on **Windows** 
 ???+ note
     Remember, if you switch to a new device, just follow these instructions to ensure you have the necessary tools:
 
+
+## Step 0
+
+Make sure that your computer meets HAMK BYOD requirements. You can find the requirements from [here](https://www.hamk.fi/en/student-pages/it-services-for-students/it-rules-and-guidelines/)
+
+Main points are:
+- Windows 11 (23H2 or newer)
+- 16 GB of memory
+
 ## Step 1: Install CHOCOLATEY
 
 Chocolatey is a popular package manager for Windows that simplifies the process of installing, updating, and managing software applications. It allows users to automate the installation of a wide range of software with a single command, making it efficient and convenient. Chocolatey provides access to a vast repository of pre-packaged software packages, which can be easily installed, updated, or removed using command-line instructions. This tool streamlines software management on Windows systems, enhancing productivity and reducing the manual effort required for software maintenance.
@@ -45,12 +54,12 @@ After successfully installing the Chocolatey package manager, you can use it to 
 
 ***The list of apps that you are going to install is as below:*** <br>
 
-> powershell-core, git, vscode, putty,firefox, greenshot,google-drive-file-stream, googlechrome notepadplusplus, winscp, 7zip,  paint.net, windirstat, zoom, sudo, vmrc, vmware-horizon-client, github-desktop, docker-desktop & obs-studio powertoys
+> powershell-core, git, vscode, putty,firefox, greenshot,google-drive-file-stream, googlechrome notepadplusplus, winscp, 7zip,  paint.net, windirstat, zoom, sudo, vmrc, vmware-horizon-client, docker-desktop & obs-studio powertoys
 
 ***To install the above mentioned programs run the following script***
 
 ```powershell
-choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client github-desktop obs-studio docker-desktop google-drive-file-stream googlechrome curl powertoys -y
+choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client obs-studio docker-desktop google-drive-file-stream googlechrome curl powertoys -y
 
 ```
 ## Step 3: Installing some useful VScode addons 
@@ -89,10 +98,10 @@ If you already have a **GitHub account**, you can sign in and if you don't have 
   - You might have access to educational resources for students or discounts. 
   
 ***Mandatory for all*** <br>
-!!! warning
-    Mandatory for all
+!!! Warning
+    It is mandatory for all students to get the GitHub Student Developer Pack, which is used in education.
 
-  You are required to link your school email to your personal GitHub account. Please follow the instructions below: 
+Please follow the instructions below: 
 
 1. Login to GitHub using your personal account. 
 2. Once logged in, go to your [GitHub account settings](https://github.com/settings/emails).

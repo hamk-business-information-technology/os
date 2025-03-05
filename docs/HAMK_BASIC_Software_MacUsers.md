@@ -5,6 +5,10 @@ title: Basic Programs - Mac
 The following guidelines utilize the **[brew](https://brew.sh/) package manager** for **macOS** to install several applications that are used in different modules in HAMK. 
 
 
+## Step 0
+
+Make sure that your computer meets HAMK BYOD requirements. You can find the requirements from [here](https://www.hamk.fi/en/student-pages/it-services-for-students/it-rules-and-guidelines/). Main requirements is to have 16GB of memory for virtualization and development.
+
 ## Step 1: Installing Apple development environment Xcode and Brew
 
 ### Requirements
@@ -63,7 +67,6 @@ code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension GitHub.copilot
-code --install-extension GitHub.copilot
 ```
 
 ## Apple UI changes
@@ -103,10 +106,11 @@ If you already have a **GitHub account**, you can sign in and if you don't have 
   - It helps to verify your identity which is important when collaborating on academic projects during the module. 
   - You might have access to educational resources for students or discounts. 
   
-  ***Mandatory for all*** <br>
+
 !!! Warning
-    Mandatory for all
-  You are required to link your school email to your personal GitHub account. Please follow the instructions below: 
+    It is mandatory for all students to get the GitHub Student Developer Pack, which is used in education.
+
+Please follow the instructions below: 
 
 1. Login to GitHub using your personal account. 
 2. Once logged in, go to your [GitHub account settings](https://github.com/settings/emails).
@@ -170,7 +174,7 @@ We recommend owners of Mac computers to use Parallels software, which enables Wi
 
 ***Vmware Fusion***
 
-Vmware Fusion is free for personal use, but needs more configuration than Parallels. So we recommend Parallels for new Mac users. If you are familiar with virtual machines, you can use Vmware Fusion. For smooth working we recommend least 16 GB of memory and an M2 series processor. You can download the Vmware Fusion software from [https://www.vmware.com/go/get-fusionplayer-key](https://www.vmware.com/go/get-fusionplayer-key)
+Vmware Fusion is free, but needs more configuration than Parallels. So we recommend Parallels for new Mac users. If you are familiar with virtual machines, you can use Vmware Fusion. For smooth working we recommend least 16 GB of memory and an M2 series processor. You can download the Vmware Fusion software from [https://www.vmware.com/go/get-fusionplayer-key](https://www.vmware.com/go/get-fusionplayer-key)
 
 ***HAMK Vcommander***
 
