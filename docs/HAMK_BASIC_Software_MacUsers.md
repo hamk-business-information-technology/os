@@ -194,3 +194,13 @@ Third option is to use HAMK Vcommander service, but compared to Parallels and Vm
 **Warp terminal**  
 
 - [Warp terminal](https://www.warp.dev/) and [New *incredible* macOS terminal! (warp + starship + zsh)](https://www.youtube.com/watch?v=NfggT5enF4o)
+
+**Menu bar manager**
+
+- [Ice](https://github.com/jordanbaird/Ice)  is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.
+
+```bash
+brew install jordanbaird-ice
+
+```
+
