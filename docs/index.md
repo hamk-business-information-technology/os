@@ -59,7 +59,7 @@ After successfully installing the Chocolatey package manager, you can use it to 
 ***To install the above mentioned programs run the following script***
 
 ```powershell
-choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client obs-studio docker-desktop google-drive-file-stream googlechrome safeexambrowser firefox curl powertoys -y
+choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom sudo vmrc vmware-horizon-client obs-studio docker-desktop google-drive-file-stream googlechrome safeexambrowser firefox curl powertoys vmwareworkstation -y
 
 ```
 ## Step 3: Installing some useful VScode addons 
