@@ -1,0 +1,237 @@
+/* HAMK branding fonts */
+@font-face {/* from the HAMK font .zip file */
+    font-family: 'TT Rounds Neue DemiBold';
+    src: url('../assets/fonts/tt_rounds_neue_demibold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/tt_rounds_neue_demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {/* from the HAMK font .zip file */
+    font-family: 'TT Rounds Neue Condensed DemiBold';
+    src: url('../assets/fonts/tt_rounds_neue_condensed_demibold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/tt_rounds_neue_condensed_demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-family-sans: 'Inter', Helvetica, Arial, sans-serif; /* from the hamkin-brandi page */
+    --font-family-serif: 'TT Rounds Neue DemiBold', 'Arial Rounded MT', serif; /* from the hamkin-brandi page */
+/* currently not works 
+    --md-primary-fg-color:        #003755;
+    --md-primary-fg-color--light: #7300F0; 
+    --md-primary-fg-color--dark:  #003755; 
+*/
+    --md-text-font: var(--font-family-sans); 
+    --md-code-font: 'Roboto Mono', 'Courier';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-serif);
+    font-weight: normal;
+}
+
+.md-ellipsis, .md-tabs__link {
+    font-family: var(--font-family-serif);
+    font-weight: normal;
+}
+
+.md-nav__title .md-nav__link .md-nav__item { /* not working */
+    font-weight: lighter;
+}
+
+/* HAMK branding colors */
+.md-header, .md-nav--primary .md-nav__title[for=__drawer] { /* header and 1st degree drawer for small screens*/
+    background-color: #003755;
+    scrollbar-color: #7300F0;
+}
+
+.md-nav .md-nav__title { /* 2nd degree drawer for small screens AND the right side TOC  */
+    background-color: #7300F0;
+    color: white;
+    font-family: var(--font-family-serif);
+    font-weight: normal;
+}
+
+.md-header__ellipsis .md-ellipsis { /* header text */
+    color: #D7AFFF;
+    font-weight: normal;
+}
+
+.md-header__ellipsis .md-ellipsis:hover { /* header text */
+    color: white;
+}
+
+.md-icon, .md-top.md-icon, .md-clipboard.md-icon {
+    color: #7300f0;
+}
+
+.md-top.md-icon, .md-clipboard.md-icon  {
+    color: #7300f0;
+    background-color: white;
+}
+
+.md-search__icon.md-icon { /* magnifier search icon in the search box */
+    color: #D7AFFF;
+    font-size: 0.8em;
+}
+
+input.md-search__input::placeholder { /*placeholder in the search box*/
+    font-size: 0.9em;
+    color: #D7AFFF;
+}
+
+.md-tabs { /* the horizontal bar just below the header */
+    background-color: #d7afff;
+}
+
+.md-tabs__item .md-tabs__link { /*nav in the horizontal bar just below the header*/
+    color: black;
+}
+
+.md-tabs__item--active .md-tabs__link {
+    color: black;
+}
+
+
+.md-ellipsis:hover { /* hovering over the nav and toc links, also affecting header text if not set separately */
+    color: #7300F0;
+}
+
+[id^="__nav_"][id$="_label"] .md-ellipsis { /* HEAD of group doc */
+    color: var(--md-typeset-a-color); /* same color with other active links */
+    font-family: var(--font-family-serif);
+    text-transform: uppercase;
+}
+
+/* For the email feedback button, putting to the search div */
+.md-search {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically */
+}
+.custom-email-link i {  /* Adjust the envelope icon */
+    margin-right: 0.5em;
+    margin-left: 0.8em;
+    font-size: 1.3em;
+    vertical-align: middle;
+    color: #D7AFFF;
+}
+.custom-email-link { /* Adjust the 'Feedback' text */
+    font-size: 1.3em;
+    vertical-align: middle;
+    color: #D7AFFF;
+}
+
+/* collectively set the color for the header content */
+.md-header__ellipsis .md-ellipsis, .md-icon, .md-search__icon.md-icon, .custom-email-link, .custom-email-link i, input.md-search__input::placeholder {
+    color: #D7AFFF;
+}
+
+/* for video iframe */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.youtube { /* for the youtube logo */
+    color: #EE0F0F;
+    font-size: 2em;
+}
+
+.google-drive { /* for the google-drive logo */
+    color: green;
+    font-size: 2em;
+}
+
+.md-button.md-button--primary {
+    background-color: #003755; /* Hamk dark blue color */
+    color: #D7AFFF; /* Hamk light pink text */
+    border: none; /* No border */
+    padding: 5px 10px; /* Padding */
+    border-radius: 1px; /* Rounded corners */
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.md-button.md-button--primary:hover {
+    background-color: #7300F0; /* Hamk darke purple color on hover */
+}
+
+.right-floatter {
+    float: right;
+    margin-left: 0.4em;
+}
+
+.print-button {
+    padding: 10px 15px;
+    font-size: 0.9em;
+    background-color: #003755;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.print-button:hover {
+    background-color: #7300F0; /* Change to a slightly darker green on hover */
+    color: white; /* Ensure text color stays white */
+}
+
+.print-button i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.greetings {
+    font-size: 30px;
+    color: #7300F0;
+}
+
+/* Accessibility - fixing font-size too small */
+.highlight span.filename {
+    font-size: 0.95em;
+}
+
+[data-md-color-scheme="default"] {
+    --md-default-fg-color--light: black;
+    --md-default-fg-color: #212121;
+    --md-code-hl-name-color: #212121;
+    --md-footer-bg-color: #d7afff;
+    --md-footer-bg-color--dark: #003755;
+    --md-code-fg-color: #212121;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-default-fg-color--light: white;
+    --md-default-fg-color: #fafafa;
+    --md-code-hl-name-color: #fafafa;
+    --md-footer-bg-color: #d7afff;
+    --md-footer-bg-color--dark: #003755;
+    --md-code-fg-color: #fafafa;
+}
+
+.md-footer__title {
+    color: black;
+}
+
+.md-typeset a {
+    color: var(--md-typeset-a-color);
+    font-style: italic;
+    text-decoration: underline;
+}
