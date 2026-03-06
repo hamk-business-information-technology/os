@@ -122,7 +122,7 @@ The GitHub Student Pack is a service meant to help students with their coding an
 2. Select your academic status as Student. 
 3. Fill in the form and Click Continue. 
 
-  > Note: Verification may be required based on the situation. In such cases, you can utilize your mobile student card to complete the verification process.
+  > Note: Verification may be required based on the situation. In such cases, you can utilize your mobile student card to complete the verification process. Now in 2026 Github will require location information on the system that is used to activate. Allow it on your computer or use your cellphone to complete verification
 
 ## Step 6: Configure Git
 
