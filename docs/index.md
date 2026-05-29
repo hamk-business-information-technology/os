@@ -3,9 +3,7 @@ title: Basic Programs - Windows
 ---
 # Installation of basic programs (HAMK BYOD) in students' personal devices (Windows). 
 
-The following guidelines utilizes the **chocolatey package manager** for **Windows** to install several applications that are used in different modules in HAMK. 
-
-The provided instructions use the **Chocolatey package manager** on **Windows** to install various applications needed for different modules at HAMK. It's important to install these tools on the device you'll use for studying, as they'll be essential throughout your studies. 
+The following guidelines utilizes the [Winget] (https://learn.microsoft.com/en-us/windows/package-manager/winget/) to install several applications that are used in different cources in HAMK. 
 
 ???+ note
     Remember, if you switch to a new device, just follow these instructions to ensure you have the necessary tools:
@@ -16,55 +14,116 @@ The provided instructions use the **Chocolatey package manager** on **Windows** 
 Make sure that your computer meets HAMK BYOD requirements. You can find the requirements from [here](https://www.hamk.fi/en/student-pages/it-services-for-students/it-rules-and-guidelines/)
 
 Main points are:
-- Windows 11 (23H2 or newer)
+
+- Windows 11 (25H2 or newer)
+
 - 16 GB of memory
 
-## Step 1: Install CHOCOLATEY
+- If you are using Mac then move to Mac instruction
 
-Chocolatey is a popular package manager for Windows that simplifies the process of installing, updating, and managing software applications. It allows users to automate the installation of a wide range of software with a single command, making it efficient and convenient. Chocolatey provides access to a vast repository of pre-packaged software packages, which can be easily installed, updated, or removed using command-line instructions. This tool streamlines software management on Windows systems, enhancing productivity and reducing the manual effort required for software maintenance.
+## Step 1: Updating Windows to the most up-to-date version.
 
-???+ warning "Requirements"
-    * Windows 7 or newer version of Windows Operating System (Recommended Windows 10 or 11)
-    * PowerShell v2+
-    * .NET Framework 4+ 
+Before installing study software, update your device to Windows 11 version 25H2.
 
-???+ info "Installation Process"
-    * Start Powershell with Administrator rights (Run as Administrator)
-    If you already have choco installed in your device, run the following command in your powershell 
+1. Open **Settings** from the Start menu.
+2. Go to **Windows Update**.
+3. Click **Check for updates**.
+4. Install all available updates.
+5. If you see **Feature update to Windows 11, version 25H2**, click **Download and install**.
+6. Restart your computer.
+7. Return to **Settings > Windows Update** and check again until you see that your device is up to date.
 
-!!! danger "This will remove chocolatey from your computer! For re-installing only!"
-    ```powershell title="Powershell as Administrator"
-    rm -Path "C:\ProgramData\chocolatey" -Recurse -Force
-    rm -Path "C:\ProgramData\ChocolateyHttpCache" -Recurse -Force
-    ```
-**Lets understand what you did with above command:** 
+To get advanced and optional updates:
+1. Open **Settings** from the Start menu.
+2. Go to **Windows Update**.
+3. Go to **Advanced options**.
+4. Select **Receive updates for other Microsoft products**.
+5. Select **Optional updates** and install them as needed.
+6. Restart your computer.
 
-- `#!powershell rm`: It deletes files or directories in this case it deletes the chocolatey directory.
-- `#!powershell -erroraction 'silentlycontinue'`: This part of the command tells PowerShell to continue executing the script without displaying an error message if the removal encounters an error (e.g., if the directory doesn't exist).
 
-**Run the following command in Powershell to install CHOCOLATEY**
 
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
-```
+## Step 2: Programs/Apps Installation using Winget
 
-## Step 2: Programs/Apps Installation
+After getting your base system up to date, we are going to install basic programs that are used in your studies. You can install them one by one, but this is the easiest and fastest way to do it.
 
-After successfully installing the Chocolatey package manager, you can use it to install multiple apps simultaneously. This saves you significant time compared to installing each app individually. 
 
 ***The list of apps that you are going to install is as below:*** <br>
 
-> powershell-core, git, vscode, putty, firefox, greenshot,google-drive-file-stream, googlechrome, safeexambrowser, notepadplusplus, winscp, 7zip,  paint.net, windirstat, zoom, docker-desktop & obs-studio powertoys
+> powershell-core, git, vscode, putty, firefox, greenshot,google-drive-file-stream, googlechrome, safeexambrowser, notepadplusplus, winscp, 7zip,  paint.net, windirstat, zoom, docker-desktop, obs-studio, powertoys and chocolatey
 
-***To install the above mentioned programs run the following script***
+***To install the above-mentioned programs, run the following commands. Winget does not support multi-install, so the command structure is a little bit weird.***
 
 ```powershell
-choco install powershell-core git vscode putty greenshot notepadplusplus winscp 7zip paint.net windirstat zoom obs-studio docker-desktop google-drive-file-stream googlechrome safeexambrowser firefox curl powertoys vmwareworkstation -y
-
+winget update
+winget install -e --id Microsoft.PowerShell
+winget install -e --id Mozilla.Firefox
+winget install -e --id Git.Git --custom '/components=""'
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id PuTTY.PuTTY
+winget install -e --id Greenshot.Greenshot
+winget install -e --id Notepad++.Notepad++
+winget install -e --id WinSCP.WinSCP
+winget install -e --id 7zip.7zip
+winget install -e --id dotPDN.PaintDotNet
+winget install -e --id WinDirStat.WinDirStat
+winget install -e --id Google.GoogleDrive
+winget install -e --id Google.Chrome
+winget install -e --id Discord.Discord
+winget install -e --id Microsoft.PowerToys
+winget install -e --id Microsoft.WindowsTerminal
+winget install -e --id Tailscale.Tailscale
+winget install -e --id Zoom.Zoom
+winget install -e --id Nvidia.GeForceNow
+winget install -e --id Syncthing.Syncthing
+winget install -e --id OpenWhisperSystems.Signal
+winget install -e --id Valve.Steam
+winget install -e --id EpicGames.EpicGamesLauncher
+winget install -e --id HandBrake.HandBrake
+winget install -e --id VideoLAN.VLC
+winget install -e --id cURL.cURL
+winget install -e --id Logitech.Options
+winget install -e --id Gyan.FFmpeg
+winget install -e --id Audacity.Audacity
+winget install -e --id OBSProject.OBSStudio
+winget install -e --id Microsoft.Sysinternals.RDCMan
+winget install -e --id Microsoft.Office
+winget install -e --id Nvidia.CUDA
+winget install -e --id Docker.DockerDesktop
+winget install -e --id Chocolatey.Chocolatey 
 ```
+
+??? note "Basic commands for Winget (Click to open)"
+
+    ```powershell
+    # Search for an app
+    winget search vscode
+
+    # Check for available upgrades
+    winget upgrade
+
+    # Upgrade all apps on your computer
+    winget upgrade --all
+
+    # Upgrade a specific app
+    winget upgrade -e --id VideoLAN.VLC
+
+    # Pin an app version (prevent upgrades)
+    winget pin add --id VideoLAN.VLC
+
+    # List pinned apps
+    winget pin list
+
+    # Remove a pin
+    winget pin remove --id VideoLAN.VLC
+    ```
+
+
+
+
 ## Step 3: Installing some useful VScode addons 
 
-* Restart your Powershell session 
+* Restart your Powershell session by closing the window and opening it again
 * Run the following commands 
 
 ```powershell linenums="1"
@@ -73,7 +132,6 @@ code --install-extension vsls-contrib.gistfs
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension GitHub.copilot
 code --install-extension GitHub.vscode-pull-request-github
 
 ```
@@ -97,9 +155,9 @@ If you already have a **GitHub account**, you can sign in and if you don't have 
   - It helps to verify your identity which is important when collaborating on academic projects during the module. 
   - You might have access to educational resources for students or discounts. 
   
-***Mandatory for all*** <br>
-!!! Warning
-    It is mandatory for all students to get the GitHub Student Developer Pack, which is used in education.
+
+!!! Warning "Mandatory for all"
+    We will be using Github Student pack. For that we need to link your Github account to @student.hamk.fi email address.
 
 Please follow the instructions below: 
 

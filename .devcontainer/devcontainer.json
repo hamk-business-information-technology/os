@@ -1,0 +1,30 @@
+{
+    "name": "Ubuntu with Docker",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "yahyabatulu.vscode-markdown-alert",
+                "bierner.github-markdown-preview",
+                "bierner.markdown-preview-github-styles",
+                "oderwat.indent-rainbow"
+            ]
+        }
+    },
+      "runArgs": [
+        "--device=/dev/net/tun",
+        "--privileged"
+                ],
+    "features": {
+      "python": {
+                "version": "3.9" 
+        }
+  },
+  "mounts": [
+        "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+      ],
+        "postCreateCommand": "pip install --upgrade pip && pip install mkdocs mkdocs-github-admonitions-plugin mkdocs-material markitdown"//,
+ }
