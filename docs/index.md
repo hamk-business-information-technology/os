@@ -69,26 +69,14 @@ winget install -e --id dotPDN.PaintDotNet
 winget install -e --id WinDirStat.WinDirStat
 winget install -e --id Google.GoogleDrive
 winget install -e --id Google.Chrome
-winget install -e --id Discord.Discord
 winget install -e --id Microsoft.PowerToys
 winget install -e --id Microsoft.WindowsTerminal
-winget install -e --id Tailscale.Tailscale
 winget install -e --id Zoom.Zoom
-winget install -e --id Nvidia.GeForceNow
-winget install -e --id Syncthing.Syncthing
-winget install -e --id OpenWhisperSystems.Signal
-winget install -e --id Valve.Steam
-winget install -e --id EpicGames.EpicGamesLauncher
-winget install -e --id HandBrake.HandBrake
 winget install -e --id VideoLAN.VLC
 winget install -e --id cURL.cURL
-winget install -e --id Logitech.Options
-winget install -e --id Gyan.FFmpeg
-winget install -e --id Audacity.Audacity
 winget install -e --id OBSProject.OBSStudio
 winget install -e --id Microsoft.Sysinternals.RDCMan
 winget install -e --id Microsoft.Office
-winget install -e --id Nvidia.CUDA
 winget install -e --id Docker.DockerDesktop
 winget install -e --id Chocolatey.Chocolatey 
 ```
