@@ -66,7 +66,6 @@ code --install-extension vsls-contrib.gistfs
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-code --install-extension GitHub.copilot
 ```
 
 ## Apple UI changes
@@ -174,7 +173,7 @@ We recommend owners of Mac computers to use Parallels software, which enables Wi
 
 ***Vmware Fusion***
 
-Vmware Fusion is free, but needs more configuration than Parallels. So we recommend Parallels for new Mac users. If you are familiar with virtual machines, you can use Vmware Fusion. For smooth working we recommend least 16 GB of memory and an M2 series processor. You can download the Vmware Fusion software from [https://www.vmware.com/go/get-fusionplayer-key](https://www.vmware.com/go/get-fusionplayer-key)
+Vmware Fusion is free, but needs more configuration than Parallels. So we recommend Parallels for new Mac users. If you are familiar with virtual machines, you can use Vmware Fusion. For smooth working we recommend least 16 GB of memory and an M2 series processor. You can download the Vmware Fusion software from [https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
 
 ***HAMK Vcommander***
 
