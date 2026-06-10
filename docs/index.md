@@ -50,7 +50,7 @@ After getting your base system up to date, we are going to install basic program
 
 ***The list of apps that you are going to install is as below:*** <br>
 
-> powershell-core, git, vscode, putty, firefox, greenshot,google-drive-file-stream, googlechrome, safeexambrowser, notepadplusplus, winscp, 7zip,  paint.net, windirstat, zoom, docker-desktop, obs-studio, powertoys and chocolatey
+> powershell-core, git, vscode, putty, firefox, greenshot,google-drive-file-stream, googlechrome, safeexambrowser, notepadplusplus, winscp, 7zip,  paint.net, windirstat, zoom, docker-desktop, obs-studio and powertoys
 
 ***To install the above-mentioned programs, run the following commands. Winget does not support multi-install, so the command structure is a little bit weird.***
 
@@ -78,7 +78,7 @@ winget install -e --id OBSProject.OBSStudio
 winget install -e --id Microsoft.Sysinternals.RDCMan
 winget install -e --id Microsoft.Office
 winget install -e --id Docker.DockerDesktop
-winget install -e --id Chocolatey.Chocolatey 
+winget install -e --id ETHZurich.SafeExamBrowser
 ```
 
 ??? note "Basic commands for Winget (Click to open)"
@@ -121,7 +121,6 @@ code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
 code --install-extension GitHub.vscode-pull-request-github
-
 ```
 ## Step 4: Create GitHub Account
 
@@ -179,7 +178,7 @@ You have installed Git in Step 2. You need to configure Git by providing your fu
 
 ***Configure Git with command line***
 
-1. Open Git Bash. 
+1. Open a terminal. 
 2. Set your username and email, which will be associated with your commits. Use these commands, replacing "Your Name" and "your.email@example.com" with your actual information:
 
 ```bash

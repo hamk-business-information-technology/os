@@ -40,11 +40,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ## Step 2: Programs/Apps Installation using Brew
 ### The list of applications that you are going to install <br>
-Vscode, vmware-horizon-client, disk-inventory, Git, Github, obs, Vmware-fusion, Google Drive, Google Chrome, UTM virtualization software, Teams, Cyberduck, Docker,  Zoom and Displaylink USB dock drivers.
+Vscode, disk-inventory, Git, Github, obs, Google Drive, Google Chrome, Teams, Cyberduck, Docker, Safe exam browser, Zoom and Displaylink USB dock drivers.
 
 ### To install the above-mentioned programs run the following script
 ```bash
-brew install --cask visual-studio-code; brew install --cask vmware-horizon-client; brew install --cask disk-inventory-x; brew install --cask zoom; brew install git; brew install --cask github; brew install --cask obs; brew install --cask utm; brew install --cask google-drive; brew install --cask docker; brew install --cask google-chrome; brew install --cask microsoft-teams; brew install --cask cyberduck; brew install --cask displaylink; brew install --cask safe-exam-browser; brew install --cask vmware-fusion
+brew install --cask visual-studio-code; brew install --cask disk-inventory-x; brew install --cask zoom; brew install git; brew install --cask obs; brew install --cask utm; brew install --cask google-drive; brew install --cask docker; brew install --cask google-chrome; brew install --cask microsoft-teams; brew install --cask cyberduck; brew install --cask displaylink; brew install --cask safe-exam-browser;
 ```
 
 ## Step 3: Apple store <br>
@@ -66,6 +66,7 @@ code --install-extension vsls-contrib.gistfs
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension GitHub.vscode-pull-request-github
 ```
 
 ## Apple UI changes
@@ -85,19 +86,19 @@ press Cmd + Shift + . to reveal the hidden folder and files.
 When you no longer want to see them click Command + Shift + . again.
 
 
+## Step 4: Create GitHub Account
 
-## Step 5: Git and Github
 As you progress through your upcoming courses and projects, you'll begin using version control. GitHub, a platform for version control is mainly used at HAMK. You'll start by setting up your own GitHub account. If you already have one,  you don't need to make a new account. While you'll study further into version control concepts in the future, your initial step involves creating an account and getting Git up and running on your personal device.
 
 ***Create GitHub Account***
 
 If you already have a **GitHub account**, you can sign in and if you don't have one, you can create a new GitHub account by following the instructions below:  
 
-  1. Go to [GitHub Sign up Page] (https://github.com/signup)
+  1. Go to [GitHub Sign up Page](https://github.com/signup)
   2. Fill in the Sign Up form. 
   3. Verify your Email address. GitHub will send a verification email to the email address you provided. Go to your email inbox, find the email from GitHub, and click the verification link.
-???+ note "Congratulations!"
-    Once your email is verified, your account is ready. You can now start using GitHub to create repositories, contribute to projects and collaborate with others.
+
+  > Congratulations! Once your email is verified, your account is ready. You can now start using GitHub to create repositories, contribute to projects and collaborate with others.
   
 ### Link your HAMK email
 
@@ -106,8 +107,8 @@ If you already have a **GitHub account**, you can sign in and if you don't have 
   - You might have access to educational resources for students or discounts. 
   
 
-!!! Warning
-    It is mandatory for all students to get the GitHub Student Developer Pack, which is used in education.
+!!! Warning "Mandatory for all"
+    We will be using Github Student pack. For that we need to link your Github account to @student.hamk.fi email address.
 
 Please follow the instructions below: 
 
@@ -119,21 +120,20 @@ Please follow the instructions below:
   
   Now, you'll have both your personal email and school email associated with your GitHub account. You can choose which email to use when making commits or changes. 
 
-## Step 6: Activate GitHub Student Developer Pack
+## Step 5: Activate GitHub Student Developer Pack
 
 The GitHub Student Pack is a service meant to help students with their coding and development projects. It offers a variety of significant advantages including free access to premium developer tools, learning materials such as online courses and tutorials, cloud credits for experimentation, and opportunities to obtain hands-on experience with industry-standard technologies. Students can also get domain names for their projects, join a friendly community, and participate in hackathons and coding contests. 
 
 **To activate the GitHub Student Developer Pack, follow these steps:**
 
 1. Access the Student Developer Pack:
- Once Signed in to GitHub and linking up your school's email account, access the   [Sign Up for Student Development Pack](https://education.github.com/benefits?type=student)page.
+ Once Signed in to GitHub and linking up your school's email account, access the   [Sign Up for Student Development Pack](https://education.github.com/benefits?type=student) page.
 2. Select your academic status as Student. 
 3. Fill in the form and Click Continue. 
 
-???+ Note
-    Verification may be required based on the situation. In such cases, you can utilize your mobile student card to complete the verification process.
+  > Note: Verification may be required based on the situation. In such cases, you can utilize your mobile student card to complete the verification process. Now in 2026 Github will require location information on the system that is used to activate. Allow it on your computer or use your cellphone to complete verification
 
-## Step 7: Configure Git
+## Step 6: Configure Git
 
 You have installed Git in Step 2. You need to configure Git by providing your full name and email address.You can start GitHub Desktop and configure using the graphical user interface as shown in the diagram below or use the command line. 
 
@@ -142,7 +142,7 @@ You have installed Git in Step 2. You need to configure Git by providing your fu
 
 ***Configure Git with command line***
 
-1. Open Git Bash. 
+1. Open a terminal. 
 2. Set your username and email, which will be associated with your commits. Use these commands, replacing "Your Name" and "your.email@example.com" with your actual information:
 
 ```bash
@@ -154,12 +154,12 @@ git config --global user.email your.email@example.com
 ```bash
 git config --list
 ```
-***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
+> You're now set up to use Git on Windows. You can create repositories, make commits, and interact with remote repositories using Git commands. 
 
-**All completed!**
+***Congratulations on successfully installing the essential applications necessary for your studies at HAMK. As you progress, there might be a need to install additional applications.***
 
 
-## Step 9: Virtual machines platforms
+## Step 7: Virtual machines platforms
 
 
 You have two good options for virtual machines platforms: Vmware Fusion and Parallels. Vmware Fusion is free for personal use and Parallels is paid. You can choose the one that suits you best. 
