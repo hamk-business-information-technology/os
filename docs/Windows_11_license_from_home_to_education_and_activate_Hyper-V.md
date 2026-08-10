@@ -37,9 +37,9 @@ wmic path SoftwareLicensingService get OA3xOriginalProductKey
 
 Please follow these steps to activate a new product key in Windows:
 
-1. **Open Settings:** Click the **Start** button, then click the **Settings**.
+1. **Open Settings:** Right click the **Start** button, then click the **Settings**.
 
-2. **Update & Security:** Select **Update & Security** from the Settings window.
+2. **System:** Select **System** from the Settings window.
 
 3. **Activation:** In the left sidebar, click **Activation**.
 
