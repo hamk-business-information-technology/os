@@ -11,7 +11,7 @@ The following guidelines utilizes the [Winget] (https://learn.microsoft.com/en-u
 
 ## Step 0
 
-Make sure that your computer meets HAMK BYOD requirements. You can find the requirements from [here](https://www.hamk.fi/en/student-pages/it-services-for-students/it-rules-and-guidelines/)
+Make sure that your computer meets HAMK BYOD requirements. You can find the requirements from [here](https://www.hamk.fi/en/student-pages/it-services-for-students/)
 
 Main points are:
 
