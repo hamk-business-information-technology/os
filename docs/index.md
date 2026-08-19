@@ -3,7 +3,7 @@ title: Basic Programs - Windows
 ---
 # Installation of basic programs (HAMK BYOD) in students' personal devices (Windows). 
 
-The following guidelines utilizes the [Winget] (https://learn.microsoft.com/en-us/windows/package-manager/winget/) to install several applications that are used in different cources in HAMK. 
+The following guidelines utilizes the [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) to install several applications that are used in different cources in HAMK. 
 
 ???+ note
     Remember, if you switch to a new device, just follow these instructions to ensure you have the necessary tools:
